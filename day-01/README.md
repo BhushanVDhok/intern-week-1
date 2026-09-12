@@ -89,6 +89,6 @@ The application runs in the terminal and stores employee data in memory for the 
 
 - Implemented JavaScript functional helpers like .reduce() and .filter() to handle aggregate stats
 
-## Future improvement
+## Future Improvements
 
-Add JSON file persistence so employee records remain available after the program exits.
+- Save employee records in a JSON file so the data is still available after the program closes.

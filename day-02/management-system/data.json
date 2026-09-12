@@ -1,0 +1,32 @@
+[
+  {
+    "id": 101,
+    "name": "Aarav Sharma",
+    "department": "Engineering",
+    "salary": 62000
+  },
+  {
+    "id": 102,
+    "name": "Diya Patel",
+    "department": "Human Resources",
+    "salary": 48000
+  },
+  {
+    "id": 103,
+    "name": "Kabir Singh",
+    "department": "Engineering",
+    "salary": 70000
+  },
+  {
+    "id": 104,
+    "name": "Meera Joshi",
+    "department": "Finance",
+    "salary": 56000
+  },
+  {
+    "id": 105,
+    "name": "Bhushan Dhok",
+    "department": "Marketing",
+    "salary": 45000.0
+  }
+]
