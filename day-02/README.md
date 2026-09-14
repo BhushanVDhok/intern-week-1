@@ -30,6 +30,14 @@ day-02/
 
 Python 3 standard library only: `json`, `csv`, and `pathlib`.
 
+## Python setup
+
+Install Python 3 from [python.org](https://www.python.org/downloads/) and select **Add Python to PATH** during installation. Check that it is available:
+
+```powershell
+python --version
+```
+
 ## Run the programs
 
 Run these commands from the `day-02` folder:
