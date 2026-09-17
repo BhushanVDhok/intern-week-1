@@ -1,0 +1,996 @@
+facility_id,location,facility_type,cleanliness_score,odor_score,waste_level,water_availability,footfall,complaints,inspection_date,hours_since_cleaning,hygiene_risk
+F0001,Nagpur Central,Public Washroom,6.1,4.7,45.5,Yes,584.0,5.0,2026-08-05,8.5,Medium
+F0002,Sadar,School Washroom,5.9,5.9,54.6,Yes,106.0,4.0,2026-08-03,9.1,Medium
+F0003,Dharampeth,Public Washroom,3.5,6.2,95.8,Yes,446.0,9.0,2026-06-22,3.1,High
+F0004,Hingna,Public Washroom,10.0,1.0,21.0,Yes,424.0,1.0,2026-03-05,4.6,Low
+F0005,Dharampeth,Office Washroom,3.0,7.2,54.5,Yes,133.0,7.0,2026-05-29,9.1,High
+F0006,Dharampeth,Transit Washroom,6.8,5.0,30.6,Yes,496.0,3.0,2026-05-17,3.3,Medium
+F0007,Nagpur Central,Office Washroom,4.8,5.0,59.3,Yes,674.0,5.0,2026-06-16,19.5,High
+F0008,Sadar,Mall Washroom,5.2,6.8,32.4,Yes,874.0,7.0,2026-06-11,6.3,High
+F0009,Civil Lines,School Washroom,2.5,8.5,74.7,Yes,334.0,5.0,2026-08-08,10.2,High
+F0010,Sitabuldi,Mall Washroom,5.6,2.5,88.3,Yes,60.0,5.0,2026-03-20,14.8,Medium
+F0011,Kamptee Road,Hospital Washroom,5.8,5.4,15.5,Yes,926.0,5.0,2026-02-28,26.6,High
+F0012,Kamptee Road,Office Washroom,6.2,4.9,33.5,Yes,439.0,4.0,2026-05-15,9.6,Medium
+F0013,Civil Lines,Hospital Washroom,5.5,5.5,33.5,Yes,130.0,4.0,2026-01-01,1.7,Medium
+F0014,Civil Lines,Public Washroom,7.2,3.2,37.7,Yes,827.0,4.0,2026-05-04,2.1,Medium
+F0015,Kamptee Road,Transit Washroom,8.3,3.5,48.8,Yes,586.0,1.0,2026-05-16,1.0,Low
+F0016,Mihan,Transit Washroom,6.8,3.4,45.3,Yes,411.0,3.0,2026-07-11,2.8,Low
+F0017,Sadar,Public Washroom,5.0,6.3,59.7,Yes,447.0,8.0,2026-01-31,6.7,High
+F0018,Civil Lines,Transit Washroom,6.5,6.6,28.0,Yes,454.0,6.0,2026-03-09,1.8,Medium
+F0019,Dharampeth,Public Washroom,3.1,8.3,77.3,Yes,296.0,6.0,2026-01-28,4.2,High
+F0020,Sitabuldi,Hospital Washroom,7.4,2.6,42.7,Yes,431.0,4.0,2026-08-05,4.5,Low
+F0021,Dharampeth,Office Washroom,2.6,9.0,100.0,Yes,612.0,8.0,2026-01-08,0.8,High
+F0022,Manish Nagar,School Washroom,4.5,7.3,75.5,Yes,367.0,7.0,2026-07-19,3.6,High
+F0023,Civil Lines,Mall Washroom,5.8,7.2,46.8,Yes,48.0,5.0,2026-01-30,5.0,Medium
+F0024,Nagpur Central,Transit Washroom,7.6,1.3,27.5,Yes,205.0,1.0,2026-03-22,14.4,Low
+F0025,Civil Lines,Public Washroom,7.5,3.9,17.1,Yes,244.0,3.0,2026-01-21,1.0,Low
+F0026,Manish Nagar,School Washroom,5.5,4.0,61.5,Yes,566.0,5.0,2026-05-03,9.4,Medium
+F0027,Dharampeth,Transit Washroom,8.3,4.1,0.0,No,564.0,4.0,2026-02-21,0.5,Medium
+F0028,Mihan,Transit Washroom,4.7,6.5,70.4,No,761.0,7.0,2026-03-22,3.5,High
+F0029,Manish Nagar,Public Washroom,5.6,3.7,71.9,Yes,404.0,4.0,2026-03-10,12.7,Medium
+F0030,Kamptee Road,School Washroom,9.1,3.5,5.4,Yes,400.0,3.0,2026-05-16,3.1,Low
+F0031,Sitabuldi,Mall Washroom,6.4,7.4,63.3,Yes,527.0,5.0,2026-05-15,0.5,Medium
+F0032,Kamptee Road,Public Washroom,7.3,1.8,44.1,Yes,834.0,6.0,2026-03-18,8.8,Medium
+F0033,Sadar,Mall Washroom,7.7,1.8,37.1,Yes,522.0,4.0,2026-07-03,17.2,Medium
+F0034,Sadar,Office Washroom,2.8,8.2,83.3,Yes,597.0,7.0,2026-03-21,7.3,High
+F0035,Manish Nagar,Office Washroom,9.8,1.0,16.1,Yes,396.0,3.0,2026-05-08,3.0,Low
+F0036,Wardha Road,Hospital Washroom,5.0,6.1,50.5,Yes,528.0,5.0,2026-08-24,12.7,High
+F0037,Kamptee Road,School Washroom,8.0,1.0,33.5,Yes,748.0,5.0,2026-06-29,2.4,Low
+F0038,Nagpur Central,Public Washroom,6.4,2.1,7.4,Yes,873.0,3.0,2026-05-16,2.3,Low
+F0039,Hingna,Public Washroom,5.0,5.3,60.4,No,200.0,9.0,2026-01-23,0.9,High
+F0040,Dharampeth,Mall Washroom,5.7,3.0,47.5,Yes,764.0,4.0,2026-08-09,1.6,Medium
+F0041,Kamptee Road,Office Washroom,8.7,1.4,20.0,No,332.0,4.0,2026-06-01,5.3,Low
+F0042,Kamptee Road,Public Washroom,4.9,6.8,77.2,Yes,428.0,5.0,2026-07-27,6.3,High
+F0043,Dharampeth,Hospital Washroom,6.0,5.8,52.3,Yes,137.0,4.0,2026-03-28,4.4,Medium
+F0044,Sadar,Office Washroom,4.4,4.8,60.5,Yes,582.0,4.0,2026-04-26,8.4,Medium
+F0045,Mihan,School Washroom,7.8,3.3,4.9,Yes,496.0,2.0,2026-07-16,4.0,Low
+F0046,Sadar,Office Washroom,5.5,5.6,72.9,Yes,432.0,3.0,2026-08-06,0.8,Medium
+F0047,Mihan,Transit Washroom,7.4,1.7,18.0,No,492.0,7.0,2026-06-12,1.0,Medium
+F0048,Mihan,Hospital Washroom,8.0,4.1,2.9,Yes,629.0,2.0,2026-09-01,1.3,Low
+F0049,Manish Nagar,Hospital Washroom,6.4,2.1,40.3,Yes,805.0,2.0,2026-05-01,2.1,Low
+F0050,Hingna,School Washroom,7.5,2.8,50.3,Yes,469.0,6.0,2026-02-02,9.2,Medium
+F0051,Mihan,Public Washroom,5.4,6.9,77.9,Yes,588.0,6.0,2026-07-14,11.0,High
+F0052,Mihan,Office Washroom,6.3,5.7,41.1,Yes,754.0,3.0,2026-04-23,5.8,Medium
+F0053,Hingna,Transit Washroom,6.1,6.4,31.2,Yes,640.0,7.0,2026-01-14,9.7,Medium
+F0054,Wardha Road,Office Washroom,2.8,7.9,75.5,Yes,591.0,9.0,2026-07-14,0.5,High
+F0055,Wardha Road,Office Washroom,4.7,6.6,67.9,No,308.0,10.0,2026-01-27,4.1,High
+F0056,Civil Lines,Office Washroom,4.6,5.1,40.8,Yes,444.0,2.0,2026-01-11,1.7,Medium
+F0057,Sitabuldi,Hospital Washroom,6.6,5.9,68.2,Yes,781.0,4.0,2026-02-28,2.2,Medium
+F0058,Dharampeth,Transit Washroom,8.3,2.9,29.3,Yes,185.0,0.0,2026-04-12,3.8,Low
+F0059,Wardha Road,Transit Washroom,5.4,3.9,72.7,Yes,656.0,9.0,2026-01-22,6.9,High
+F0060,Hingna,Hospital Washroom,10.0,1.0,17.9,Yes,197.0,3.0,2026-02-24,13.0,Low
+F0061,Mihan,School Washroom,4.0,5.2,62.0,Yes,203.0,5.0,2026-09-05,25.2,High
+F0062,Sadar,School Washroom,9.8,2.0,0.0,Yes,444.0,4.0,2026-08-19,2.5,Low
+F0063,Civil Lines,Mall Washroom,3.8,6.4,59.4,Yes,649.0,6.0,2026-05-24,5.0,High
+F0064,Mihan,Mall Washroom,7.6,4.6,21.4,Yes,489.0,4.0,2026-05-04,3.9,Low
+F0065,Hingna,Mall Washroom,5.9,3.7,60.5,Yes,449.0,4.0,2026-06-26,2.1,Medium
+F0066,Dharampeth,Mall Washroom,4.8,5.0,54.7,Yes,374.0,6.0,2026-06-11,9.6,Medium
+F0067,Dharampeth,Office Washroom,3.3,7.2,76.2,Yes,571.0,9.0,2026-05-25,9.7,High
+F0068,Kamptee Road,Hospital Washroom,6.1,4.5,59.8,Yes,400.0,4.0,2026-01-28,0.5,Medium
+F0069,Nagpur Central,Hospital Washroom,6.1,4.3,58.1,Yes,241.0,3.0,2026-04-05,6.4,Medium
+F0070,Sitabuldi,Office Washroom,6.8,5.6,35.0,Yes,359.0,4.0,2026-01-28,7.4,Medium
+F0071,Mihan,School Washroom,8.1,1.0,38.2,Yes,514.0,1.0,2026-07-14,4.0,Low
+F0072,Sadar,Mall Washroom,4.9,5.6,75.7,Yes,359.0,6.0,2026-02-20,24.2,High
+F0073,Nagpur Central,Office Washroom,7.1,5.8,42.9,Yes,543.0,2.0,2026-05-30,0.5,Medium
+F0074,Hingna,Public Washroom,7.2,3.5,48.3,Yes,574.0,4.0,2026-04-12,2.3,Medium
+F0075,Mihan,Public Washroom,3.8,6.7,89.8,Yes,205.0,6.0,2026-05-28,1.4,High
+F0076,Hingna,Mall Washroom,9.4,1.0,19.7,Yes,391.0,3.0,2026-01-21,4.3,Low
+F0077,Civil Lines,Public Washroom,5.8,6.1,79.9,Yes,735.0,12.0,2026-05-18,6.4,High
+F0078,Mihan,Public Washroom,4.1,7.0,56.4,Yes,263.0,6.0,2026-08-12,36.0,High
+F0079,Kamptee Road,Public Washroom,4.5,6.7,58.7,Yes,523.0,4.0,2026-07-25,4.0,High
+F0080,Kamptee Road,School Washroom,6.5,3.4,46.9,Yes,649.0,4.0,2026-01-01,5.4,Medium
+F0081,Mihan,Mall Washroom,5.4,6.0,38.2,Yes,712.0,6.0,2026-05-28,10.7,High
+F0082,Kamptee Road,School Washroom,8.7,2.0,24.0,Yes,535.0,0.0,2026-01-08,2.8,Low
+F0083,Hingna,School Washroom,10.0,3.2,25.3,Yes,302.0,0.0,2026-05-20,13.4,Low
+F0084,Dharampeth,Hospital Washroom,6.4,5.6,43.1,Yes,60.0,6.0,2026-03-11,5.3,Medium
+F0085,Sitabuldi,School Washroom,6.9,1.6,26.7,Yes,757.0,3.0,2026-09-08,0.5,Low
+F0086,Sadar,Transit Washroom,2.8,7.0,73.7,Yes,196.0,6.0,2026-04-07,2.9,High
+F0087,Mihan,Public Washroom,3.6,9.1,59.2,Yes,532.0,4.0,2026-03-19,18.4,High
+F0088,Nagpur Central,Mall Washroom,10.0,3.4,37.9,Yes,773.0,4.0,2026-08-22,0.8,Low
+F0089,Wardha Road,Mall Washroom,8.8,4.3,28.2,Yes,413.0,1.0,2026-02-11,2.3,Low
+F0090,Civil Lines,Public Washroom,5.1,6.7,45.5,Yes,357.0,3.0,2026-01-19,15.4,Medium
+F0091,Mihan,Office Washroom,6.7,6.3,39.4,Yes,583.0,5.0,2026-02-21,28.7,High
+F0092,Sadar,Transit Washroom,3.4,6.6,44.0,Yes,482.0,5.0,2026-03-16,3.5,High
+F0093,Sadar,School Washroom,4.0,8.0,69.7,Yes,553.0,6.0,2026-03-15,3.6,High
+F0094,Dharampeth,School Washroom,4.4,5.7,50.6,Yes,628.0,5.0,2026-03-22,2.5,Medium
+F0095,Dharampeth,Office Washroom,10.0,1.0,1.1,Yes,966.0,0.0,2026-09-05,4.6,Low
+F0096,Manish Nagar,Public Washroom,10.0,1.0,21.0,Yes,415.0,1.0,2026-07-22,13.3,Low
+F0097,Civil Lines,Hospital Washroom,3.8,6.4,67.7,Yes,360.0,7.0,2026-04-28,5.1,High
+F0098,Dharampeth,Mall Washroom,5.5,5.7,61.4,Yes,443.0,3.0,2026-03-12,8.6,Medium
+F0099,Sadar,Office Washroom,5.4,4.7,36.2,Yes,535.0,4.0,2026-03-31,0.7,Medium
+F0100,Manish Nagar,Mall Washroom,9.4,2.2,0.0,Yes,254.0,1.0,2026-09-04,1.3,Low
+F0101,Kamptee Road,Hospital Washroom,8.8,1.0,17.4,Yes,447.0,0.0,2026-07-23,1.9,Low
+F0102,Civil Lines,School Washroom,3.9,8.2,74.4,Yes,580.0,8.0,2026-05-15,10.4,High
+F0103,Dharampeth,Mall Washroom,8.4,1.0,34.3,Yes,531.0,0.0,2026-04-24,16.2,Low
+F0104,Mihan,Public Washroom,4.8,7.5,31.4,Yes,328.0,6.0,2026-06-05,21.9,High
+F0105,Hingna,Mall Washroom,9.7,2.9,24.8,Yes,612.0,3.0,2026-03-21,10.2,Low
+F0106,Mihan,Office Washroom,5.7,6.5,60.2,Yes,484.0,5.0,2026-08-16,3.5,Medium
+F0107,Mihan,Public Washroom,6.9,3.6,33.0,No,176.0,5.0,2026-03-04,3.3,Medium
+F0108,Civil Lines,Office Washroom,7.1,2.9,21.0,Yes,813.0,4.0,2026-03-06,2.1,Low
+F0109,Manish Nagar,Office Washroom,9.3,2.6,20.9,Yes,577.0,4.0,2026-01-02,3.0,Low
+F0110,Sadar,Transit Washroom,9.7,2.9,13.3,Yes,770.0,4.0,2026-07-03,1.1,Low
+F0111,Mihan,Transit Washroom,5.9,5.8,70.7,Yes,547.0,3.0,2026-02-25,10.3,Medium
+F0112,Nagpur Central,School Washroom,6.9,4.4,58.9,Yes,701.0,3.0,2026-01-16,2.7,Medium
+F0113,Manish Nagar,Transit Washroom,7.5,2.4,51.7,Yes,647.0,3.0,2026-03-06,17.2,Medium
+F0114,Dharampeth,Mall Washroom,7.4,2.5,22.3,Yes,700.0,3.0,2026-08-09,4.5,Low
+F0115,Hingna,School Washroom,8.5,3.7,38.2,Yes,236.0,4.0,2026-08-21,4.2,Low
+F0116,Dharampeth,Public Washroom,5.1,5.8,44.1,Yes,413.0,9.0,2026-08-31,8.7,High
+F0117,Dharampeth,School Washroom,6.8,3.7,59.6,Yes,635.0,3.0,2026-06-18,6.1,Medium
+F0118,Wardha Road,Public Washroom,5.1,4.7,72.6,Yes,667.0,4.0,2026-06-09,25.9,High
+F0119,Hingna,Transit Washroom,5.2,5.4,49.7,Yes,299.0,3.0,2026-04-26,14.0,Medium
+F0120,Nagpur Central,Office Washroom,8.8,4.6,18.7,Yes,398.0,2.0,2026-05-17,19.8,Low
+F0121,Dharampeth,Mall Washroom,5.9,7.3,60.4,Yes,333.0,5.0,2026-01-16,1.2,Medium
+F0122,Nagpur Central,Office Washroom,5.8,4.0,47.2,Yes,534.0,6.0,2026-02-13,2.9,Medium
+F0123,Wardha Road,School Washroom,7.8,4.7,26.7,Yes,274.0,2.0,2026-02-28,5.0,Low
+F0124,Nagpur Central,Office Washroom,6.9,5.6,53.4,Yes,243.0,4.0,2026-01-29,1.9,Medium
+F0125,Kamptee Road,Mall Washroom,6.0,5.8,55.0,Yes,558.0,5.0,2026-07-14,0.5,Medium
+F0126,Nagpur Central,School Washroom,5.2,6.0,73.0,Yes,295.0,7.0,2026-08-12,10.2,High
+F0127,Sitabuldi,Transit Washroom,9.7,1.0,0.0,Yes,298.0,1.0,2026-06-16,4.1,Low
+F0128,Kamptee Road,Public Washroom,6.7,2.4,47.0,Yes,334.0,4.0,2026-07-25,4.3,Low
+F0129,Wardha Road,Mall Washroom,5.1,6.6,49.4,Yes,597.0,7.0,2026-06-28,5.4,High
+F0130,Dharampeth,Office Washroom,7.9,4.9,25.7,Yes,565.0,4.0,2026-03-20,1.4,Low
+F0131,Wardha Road,Office Washroom,8.9,1.5,4.3,Yes,493.0,3.0,2026-06-15,8.6,Low
+F0132,Manish Nagar,School Washroom,4.6,5.0,66.4,Yes,514.0,4.0,2026-02-07,3.3,Medium
+F0133,Civil Lines,Transit Washroom,5.8,5.3,52.5,Yes,353.0,3.0,2026-08-25,14.5,Medium
+F0134,Kamptee Road,Office Washroom,4.9,8.1,51.4,Yes,670.0,5.0,2026-09-01,1.6,High
+F0135,Mihan,Transit Washroom,8.4,2.2,36.4,No,41.0,4.0,2026-08-13,0.7,Low
+F0136,Wardha Road,Public Washroom,6.0,4.2,46.8,Yes,383.0,6.0,2026-01-27,3.1,Medium
+F0137,Civil Lines,Mall Washroom,5.2,7.3,47.1,Yes,539.0,5.0,2026-02-11,25.0,High
+F0138,Manish Nagar,Transit Washroom,5.7,6.1,60.8,No,360.0,7.0,2026-02-13,6.8,High
+F0139,Kamptee Road,Hospital Washroom,4.0,8.6,74.1,Yes,127.0,6.0,2026-08-05,10.1,High
+F0140,Sitabuldi,Public Washroom,4.3,7.8,64.7,No,225.0,11.0,2026-03-12,1.6,High
+F0141,Civil Lines,School Washroom,5.5,7.7,35.1,Yes,416.0,3.0,2026-03-09,5.6,Medium
+F0142,Hingna,Hospital Washroom,3.1,8.4,81.4,Yes,93.0,5.0,2026-01-23,9.6,High
+F0143,Sadar,Hospital Washroom,5.8,4.3,39.0,Yes,491.0,3.0,2026-08-29,4.5,Medium
+F0144,Sitabuldi,Office Washroom,6.1,4.2,30.7,Yes,476.0,1.0,2026-08-03,5.2,Low
+F0145,Manish Nagar,Public Washroom,6.7,3.6,41.7,Yes,744.0,6.0,2026-03-05,6.1,Medium
+F0146,Mihan,Hospital Washroom,8.6,2.5,13.5,No,571.0,6.0,2026-04-24,21.9,Medium
+F0147,Wardha Road,Office Washroom,8.2,2.2,17.4,Yes,558.0,2.0,2026-02-20,0.6,Low
+F0148,Civil Lines,Public Washroom,8.0,3.7,38.8,Yes,390.0,2.0,2026-08-18,9.2,Low
+F0149,Manish Nagar,Public Washroom,6.7,4.2,43.4,No,552.0,5.0,2026-05-02,7.0,Medium
+F0150,Kamptee Road,Transit Washroom,7.9,4.4,35.2,Yes,327.0,3.0,2026-01-09,17.7,Medium
+F0151,Dharampeth,Transit Washroom,6.5,5.2,26.0,Yes,560.0,4.0,2026-07-04,4.0,Medium
+F0152,Wardha Road,Hospital Washroom,5.7,3.1,44.0,Yes,873.0,5.0,2026-07-18,0.5,Medium
+F0153,Nagpur Central,Hospital Washroom,6.4,3.4,53.9,Yes,497.0,2.0,2026-03-10,0.8,Low
+F0154,Sitabuldi,Public Washroom,4.8,3.9,51.5,Yes,474.0,3.0,2026-04-04,8.9,Medium
+F0155,Kamptee Road,School Washroom,5.4,2.6,62.5,Yes,463.0,4.0,2026-07-23,16.3,Medium
+F0156,Manish Nagar,Public Washroom,7.9,3.1,54.3,Yes,191.0,5.0,2026-06-19,15.1,Medium
+F0157,Kamptee Road,Hospital Washroom,7.0,2.7,26.8,No,569.0,7.0,2026-07-08,3.1,Medium
+F0158,Dharampeth,Public Washroom,9.1,2.6,0.0,Yes,102.0,0.0,2026-06-14,5.9,Low
+F0159,Civil Lines,School Washroom,5.7,6.3,29.7,Yes,546.0,2.0,2026-06-30,4.4,Medium
+F0160,Nagpur Central,Office Washroom,7.4,3.0,74.1,No,709.0,8.0,2026-03-23,3.4,High
+F0161,Civil Lines,Office Washroom,8.1,1.3,22.4,Yes,473.0,0.0,2026-01-17,7.8,Low
+F0162,Wardha Road,Mall Washroom,9.9,1.0,0.0,Yes,453.0,0.0,2026-07-23,5.7,Low
+F0163,Sadar,Transit Washroom,5.5,8.8,61.4,Yes,452.0,8.0,2026-08-17,18.4,High
+F0164,Dharampeth,Mall Washroom,8.6,1.8,55.0,Yes,739.0,5.0,2026-08-16,4.5,Low
+F0165,Wardha Road,Transit Washroom,10.0,1.0,1.1,Yes,129.0,0.0,2026-03-31,2.6,Low
+F0166,Mihan,Transit Washroom,7.5,4.1,74.6,Yes,451.0,6.0,2026-07-08,3.4,Medium
+F0167,Sitabuldi,Hospital Washroom,9.1,3.9,33.0,Yes,519.0,1.0,2026-02-07,4.9,Low
+F0168,Sitabuldi,School Washroom,7.4,2.7,23.5,Yes,177.0,5.0,2026-04-04,11.4,Low
+F0169,Dharampeth,Hospital Washroom,2.6,8.4,86.9,Yes,198.0,9.0,2026-05-26,1.3,High
+F0170,Civil Lines,Transit Washroom,5.9,6.2,82.0,Yes,215.0,4.0,2026-03-28,0.7,Medium
+F0171,Civil Lines,Hospital Washroom,8.0,4.6,26.5,Yes,135.0,3.0,2026-01-24,6.2,Low
+F0172,Manish Nagar,School Washroom,6.0,3.7,28.6,Yes,264.0,2.0,2026-05-29,7.4,Low
+F0173,Civil Lines,Office Washroom,6.5,6.9,30.7,Yes,564.0,3.0,2026-06-24,1.3,Medium
+F0174,Kamptee Road,Transit Washroom,7.5,2.7,55.1,Yes,813.0,1.0,2026-07-09,1.1,Low
+F0175,Sadar,Office Washroom,7.5,4.1,45.5,Yes,597.0,7.0,2026-08-03,0.5,Medium
+F0176,Mihan,Hospital Washroom,5.1,7.1,26.0,Yes,477.0,6.0,2026-08-28,36.0,High
+F0177,Manish Nagar,Transit Washroom,5.6,5.4,39.5,Yes,581.0,6.0,2026-08-29,6.6,Medium
+F0178,Hingna,Public Washroom,6.9,4.7,40.2,Yes,410.0,5.0,2026-01-24,3.9,Medium
+F0179,Sitabuldi,Public Washroom,5.3,5.3,49.1,Yes,401.0,4.0,2026-03-02,10.8,Medium
+F0180,Kamptee Road,Public Washroom,10.0,1.0,27.4,Yes,772.0,1.0,2026-07-25,1.7,Low
+F0181,Sitabuldi,School Washroom,7.4,3.8,27.5,Yes,646.0,2.0,2026-06-13,7.0,Low
+F0182,Mihan,Public Washroom,6.2,6.9,44.8,Yes,216.0,7.0,2026-06-03,5.7,Medium
+F0183,Manish Nagar,Mall Washroom,4.5,7.9,79.9,Yes,393.0,7.0,2026-08-31,9.7,High
+F0184,Sitabuldi,Mall Washroom,6.0,5.5,24.3,Yes,377.0,2.0,2026-07-14,1.4,Low
+F0185,Civil Lines,School Washroom,6.4,6.2,40.7,Yes,293.0,3.0,2026-09-14,4.1,Medium
+F0186,Kamptee Road,School Washroom,7.1,5.4,21.7,Yes,526.0,4.0,2026-09-02,2.9,Medium
+F0187,Civil Lines,School Washroom,5.9,5.8,59.8,Yes,324.0,4.0,2026-05-16,11.1,Medium
+F0188,Sadar,Mall Washroom,3.7,7.6,78.5,Yes,522.0,11.0,2026-05-28,2.6,High
+F0189,Hingna,Hospital Washroom,5.9,4.0,29.9,Yes,846.0,6.0,2026-07-14,2.4,Medium
+F0190,Manish Nagar,Mall Washroom,8.4,4.9,19.3,Yes,348.0,5.0,2026-08-15,3.2,Low
+F0191,Nagpur Central,Mall Washroom,5.1,6.0,24.5,Yes,307.0,3.0,2026-05-05,1.1,Medium
+F0192,Nagpur Central,Transit Washroom,4.7,7.1,54.1,Yes,589.0,7.0,2026-03-12,4.8,High
+F0193,Nagpur Central,Public Washroom,7.5,3.4,18.0,Yes,58.0,2.0,2026-05-27,7.9,Low
+F0194,Sitabuldi,Public Washroom,4.8,5.7,50.5,Yes,465.0,5.0,2026-08-02,19.1,High
+F0195,Wardha Road,Hospital Washroom,8.3,2.7,0.0,No,444.0,5.0,2026-02-24,19.5,Medium
+F0196,Sadar,Public Washroom,6.2,3.0,51.9,Yes,520.0,4.0,2026-05-20,5.3,Medium
+F0197,Sitabuldi,Transit Washroom,4.9,7.9,44.6,Yes,148.0,5.0,2026-04-09,3.1,Medium
+F0198,Sitabuldi,School Washroom,9.1,3.6,0.0,Yes,336.0,1.0,2026-04-05,8.3,Low
+F0199,Manish Nagar,Mall Washroom,5.8,6.1,49.1,Yes,590.0,4.0,2026-01-06,23.1,High
+F0200,Dharampeth,Mall Washroom,9.3,1.1,26.2,Yes,303.0,1.0,2026-06-09,8.7,Low
+F0201,Kamptee Road,School Washroom,7.8,2.7,24.4,Yes,327.0,2.0,2026-08-01,1.2,Low
+F0202,Kamptee Road,School Washroom,3.8,7.3,42.6,Yes,454.0,4.0,2026-02-11,6.8,High
+F0203,Wardha Road,Transit Washroom,4.6,6.2,66.5,Yes,376.0,6.0,2026-03-26,17.5,High
+F0204,Mihan,Office Washroom,8.7,1.0,31.3,Yes,20.0,1.0,2026-01-29,4.4,Low
+F0205,Civil Lines,Public Washroom,4.3,6.6,77.9,Yes,516.0,4.0,2026-04-22,9.6,High
+F0206,Nagpur Central,Hospital Washroom,8.5,3.6,29.1,Yes,943.0,3.0,2026-08-30,0.5,Low
+F0207,Hingna,Public Washroom,3.7,8.5,72.5,Yes,20.0,8.0,2026-07-13,4.1,High
+F0208,Kamptee Road,Office Washroom,6.3,3.9,26.5,Yes,314.0,2.0,2026-07-21,1.5,Low
+F0209,Sadar,School Washroom,6.2,3.9,49.2,Yes,431.0,2.0,2026-04-28,8.4,Medium
+F0210,Civil Lines,Public Washroom,5.8,4.6,59.1,No,413.0,7.0,2026-08-03,12.4,High
+F0211,Sadar,Transit Washroom,6.4,5.1,31.8,Yes,296.0,4.0,2026-08-13,15.4,Medium
+F0212,Civil Lines,Transit Washroom,7.0,4.5,66.4,Yes,248.0,4.0,2026-06-13,12.7,Medium
+F0213,Hingna,Transit Washroom,6.9,1.7,42.3,No,878.0,6.0,2026-03-31,5.5,Medium
+F0214,Hingna,Office Washroom,7.2,1.0,38.2,No,246.0,3.0,2026-08-02,2.9,Medium
+F0215,Kamptee Road,School Washroom,6.0,5.8,37.9,Yes,391.0,5.0,2026-01-30,14.6,Medium
+F0216,Wardha Road,Public Washroom,8.1,4.5,25.5,Yes,436.0,4.0,2026-08-19,7.8,Low
+F0217,Mihan,Office Washroom,2.9,7.6,88.8,Yes,498.0,10.0,2026-04-22,0.5,High
+F0218,Mihan,Office Washroom,7.9,3.9,21.7,No,945.0,7.0,2026-03-02,24.5,High
+F0219,Manish Nagar,Hospital Washroom,5.4,3.7,45.2,Yes,528.0,3.0,2026-06-07,2.5,Medium
+F0220,Wardha Road,Hospital Washroom,7.0,2.5,37.7,Yes,676.0,3.0,2026-04-15,13.7,Medium
+F0221,Sadar,Hospital Washroom,4.3,7.6,64.7,Yes,551.0,5.0,2026-03-20,20.5,High
+F0222,Mihan,School Washroom,5.5,5.7,70.5,Yes,20.0,4.0,2026-09-08,3.1,Medium
+F0223,Kamptee Road,Public Washroom,8.1,4.9,40.0,Yes,736.0,2.0,2026-01-31,18.7,Medium
+F0224,Dharampeth,Mall Washroom,5.7,5.6,46.0,Yes,453.0,5.0,2026-04-29,1.1,Medium
+F0225,Nagpur Central,Transit Washroom,7.2,4.5,32.4,Yes,451.0,5.0,2026-01-09,20.4,Medium
+F0226,Sitabuldi,Public Washroom,4.9,5.9,57.2,Yes,336.0,9.0,2026-08-09,0.5,High
+F0227,Mihan,Transit Washroom,8.4,1.8,27.5,Yes,735.0,3.0,2026-07-27,3.3,Low
+F0228,Dharampeth,School Washroom,5.7,5.4,72.3,Yes,472.0,5.0,2026-01-17,35.9,High
+F0229,Kamptee Road,Public Washroom,4.7,7.4,61.5,Yes,440.0,4.0,2026-02-18,5.2,High
+F0230,Kamptee Road,Transit Washroom,7.7,3.7,62.6,Yes,270.0,3.0,2026-05-24,19.3,Medium
+F0231,Manish Nagar,Office Washroom,5.7,4.6,52.2,Yes,398.0,6.0,2026-02-09,1.2,Medium
+F0232,Dharampeth,Transit Washroom,3.2,6.3,66.1,Yes,308.0,5.0,2026-03-13,3.6,High
+F0233,Nagpur Central,Mall Washroom,6.4,3.4,52.7,Yes,522.0,3.0,2026-06-17,7.0,Medium
+F0234,Dharampeth,Transit Washroom,4.7,5.7,100.0,Yes,106.0,9.0,2026-07-14,4.2,High
+F0235,Dharampeth,Public Washroom,6.0,5.9,57.9,Yes,507.0,6.0,2026-07-04,11.5,High
+F0236,Kamptee Road,Transit Washroom,8.0,4.1,30.4,Yes,415.0,4.0,2026-08-18,1.6,Low
+F0237,Hingna,Public Washroom,5.5,5.5,67.5,Yes,579.0,6.0,2026-07-31,11.5,High
+F0238,Sitabuldi,Hospital Washroom,6.2,4.5,28.5,No,442.0,9.0,2026-03-28,8.7,High
+F0239,Mihan,Transit Washroom,5.7,6.7,64.5,Yes,520.0,7.0,2026-05-07,5.0,High
+F0240,Wardha Road,School Washroom,7.1,2.8,27.7,Yes,650.0,3.0,2026-07-14,13.8,Medium
+F0241,Sitabuldi,School Washroom,4.6,8.5,84.6,Yes,20.0,7.0,2026-06-10,2.9,High
+F0242,Manish Nagar,School Washroom,6.0,6.1,45.7,Yes,142.0,4.0,2026-07-12,2.1,Medium
+F0243,Mihan,Hospital Washroom,3.5,9.8,85.4,Yes,1148.0,11.0,2026-04-18,10.9,High
+F0244,Sadar,Hospital Washroom,6.9,4.3,35.3,Yes,521.0,2.0,2026-06-05,1.1,Low
+F0245,Kamptee Road,Public Washroom,4.8,4.5,60.1,No,346.0,7.0,2026-08-03,4.9,High
+F0246,Wardha Road,Office Washroom,7.7,3.6,19.9,No,124.0,5.0,2026-05-08,0.7,Medium
+F0247,Dharampeth,Hospital Washroom,6.1,4.6,68.0,Yes,395.0,6.0,2026-01-06,10.5,Medium
+F0248,Civil Lines,Mall Washroom,6.0,5.4,70.8,Yes,370.0,4.0,2026-08-26,3.5,Medium
+F0249,Wardha Road,Hospital Washroom,4.7,6.3,66.2,Yes,445.0,9.0,2026-03-14,24.5,High
+F0250,Wardha Road,Public Washroom,9.4,1.0,37.8,Yes,372.0,2.0,2026-08-20,9.6,Low
+F0251,Kamptee Road,Office Washroom,5.3,8.0,74.7,Yes,713.0,9.0,2026-05-05,8.5,High
+F0252,Hingna,School Washroom,10.0,1.0,8.0,Yes,47.0,1.0,2026-04-06,7.5,Low
+F0253,Civil Lines,Public Washroom,9.0,2.3,27.1,Yes,708.0,3.0,2026-02-02,9.1,Low
+F0254,Kamptee Road,Mall Washroom,9.5,2.0,0.0,Yes,465.0,2.0,2026-09-08,8.3,Low
+F0255,Civil Lines,Transit Washroom,5.7,6.5,45.3,Yes,497.0,6.0,2026-06-02,4.6,Medium
+F0256,Hingna,Transit Washroom,8.9,2.7,25.7,Yes,382.0,3.0,2026-07-18,8.9,Low
+F0257,Manish Nagar,Office Washroom,7.6,4.4,41.4,Yes,717.0,6.0,2026-09-08,7.8,Medium
+F0258,Hingna,Transit Washroom,6.4,5.6,69.2,Yes,789.0,3.0,2026-04-10,5.0,Medium
+F0259,Manish Nagar,Public Washroom,4.2,6.7,58.4,Yes,220.0,6.0,2026-04-23,5.0,High
+F0260,Civil Lines,Public Washroom,6.6,4.1,59.8,Yes,80.0,4.0,2026-02-27,10.9,Medium
+F0261,Dharampeth,Mall Washroom,6.1,6.5,64.6,Yes,414.0,4.0,2026-08-06,10.7,Medium
+F0262,Mihan,Public Washroom,6.9,5.1,19.4,Yes,670.0,4.0,2026-02-14,3.2,Medium
+F0263,Sadar,Office Washroom,6.6,3.5,49.5,Yes,158.0,3.0,2026-03-13,9.3,Medium
+F0264,Manish Nagar,Transit Washroom,5.6,6.0,34.5,Yes,320.0,4.0,2026-05-30,29.0,High
+F0265,Sitabuldi,Mall Washroom,6.0,7.6,69.0,Yes,399.0,6.0,2026-05-22,24.7,High
+F0266,Sitabuldi,Transit Washroom,2.2,9.5,74.3,Yes,606.0,6.0,2026-09-08,8.5,High
+F0267,Mihan,School Washroom,4.6,5.0,56.7,Yes,491.0,4.0,2026-07-08,11.0,Medium
+F0268,Dharampeth,Transit Washroom,8.2,2.8,29.1,Yes,391.0,0.0,2026-07-03,4.6,Low
+F0269,Wardha Road,Mall Washroom,2.4,10.0,87.8,Yes,200.0,7.0,2026-09-06,2.5,High
+F0270,Mihan,School Washroom,6.1,4.9,42.8,Yes,450.0,4.0,2026-03-22,19.9,Medium
+F0271,Dharampeth,Mall Washroom,10.0,1.0,18.3,Yes,751.0,3.0,2026-05-21,7.9,Low
+F0272,Hingna,Mall Washroom,10.0,1.0,16.5,Yes,387.0,0.0,2026-04-30,7.4,Low
+F0273,Dharampeth,School Washroom,7.1,4.2,39.4,Yes,516.0,4.0,2026-06-25,5.5,Medium
+F0274,Manish Nagar,Office Washroom,6.5,4.0,28.5,Yes,767.0,6.0,2026-07-08,0.8,Medium
+F0275,Mihan,Hospital Washroom,3.8,8.8,81.9,Yes,206.0,5.0,2026-03-26,0.5,High
+F0276,Dharampeth,Office Washroom,5.4,5.3,34.0,Yes,145.0,5.0,2026-02-14,14.7,Medium
+F0277,Nagpur Central,Mall Washroom,6.4,2.9,17.6,Yes,806.0,4.0,2026-05-26,1.1,Low
+F0278,Mihan,School Washroom,7.2,4.4,30.5,Yes,512.0,5.0,2026-05-03,7.8,Medium
+F0279,Wardha Road,Transit Washroom,8.1,3.9,14.8,No,279.0,6.0,2026-08-04,32.5,High
+F0280,Sadar,Public Washroom,6.0,4.1,26.3,No,435.0,7.0,2026-05-15,0.5,Medium
+F0281,Manish Nagar,Public Washroom,10.0,1.0,2.8,Yes,538.0,0.0,2026-03-20,10.9,Low
+F0282,Manish Nagar,Mall Washroom,7.3,3.1,51.9,Yes,527.0,2.0,2026-02-03,3.7,Low
+F0283,Dharampeth,Public Washroom,2.1,10.0,83.8,No,594.0,11.0,2026-03-31,0.9,High
+F0284,Sitabuldi,Hospital Washroom,6.0,4.5,27.0,Yes,686.0,4.0,2026-05-13,11.5,Medium
+F0285,Manish Nagar,Mall Washroom,8.7,3.9,20.3,Yes,885.0,3.0,2026-02-02,0.5,Low
+F0286,Wardha Road,Office Washroom,5.0,7.8,53.9,Yes,355.0,6.0,2026-03-27,14.7,High
+F0287,Nagpur Central,School Washroom,6.4,5.2,24.3,Yes,272.0,6.0,2026-05-06,5.3,Medium
+F0288,Sadar,Hospital Washroom,7.4,1.7,59.1,Yes,487.0,3.0,2026-08-03,12.2,Medium
+F0289,Kamptee Road,Public Washroom,6.4,7.5,33.3,Yes,802.0,5.0,2026-04-25,1.0,Medium
+F0290,Nagpur Central,Hospital Washroom,5.8,5.7,48.3,Yes,344.0,8.0,2026-08-22,3.0,Medium
+F0291,Kamptee Road,Office Washroom,7.1,5.5,31.6,Yes,719.0,2.0,2026-04-11,6.7,Medium
+F0292,Wardha Road,Public Washroom,6.5,6.3,69.9,Yes,127.0,4.0,2026-01-05,8.9,Medium
+F0293,Manish Nagar,Public Washroom,6.5,3.2,42.6,Yes,241.0,0.0,2026-03-14,30.6,Medium
+F0294,Civil Lines,Public Washroom,8.7,3.2,26.5,Yes,30.0,3.0,2026-02-13,4.6,Low
+F0295,Hingna,Mall Washroom,3.7,7.2,53.9,Yes,611.0,8.0,2026-06-11,8.1,High
+F0296,Sitabuldi,Public Washroom,7.6,4.0,22.8,Yes,484.0,7.0,2026-02-25,1.1,Low
+F0297,Dharampeth,Office Washroom,7.5,4.8,20.1,No,581.0,6.0,2026-03-03,1.7,Medium
+F0298,Dharampeth,Mall Washroom,7.8,3.6,20.6,Yes,308.0,2.0,2026-03-17,14.6,Low
+F0299,Kamptee Road,Mall Washroom,6.4,5.8,23.4,Yes,402.0,5.0,2026-08-20,35.1,High
+F0300,Sitabuldi,Office Washroom,6.8,3.6,38.9,Yes,460.0,3.0,2026-04-24,0.5,Low
+F0301,Sadar,Mall Washroom,7.2,2.7,23.4,Yes,198.0,3.0,2026-02-03,2.2,Low
+F0302,Nagpur Central,Office Washroom,6.0,4.4,50.6,No,524.0,6.0,2026-08-25,0.5,High
+F0303,Manish Nagar,School Washroom,8.2,2.2,25.6,Yes,175.0,0.0,2026-05-21,4.2,Low
+F0304,Nagpur Central,Public Washroom,9.7,1.6,12.2,Yes,434.0,2.0,2026-09-03,4.0,Low
+F0305,Wardha Road,School Washroom,6.2,5.5,55.3,Yes,864.0,6.0,2026-07-15,7.5,Medium
+F0306,Civil Lines,Office Washroom,3.2,6.4,44.0,No,211.0,9.0,2026-06-13,1.5,High
+F0307,Dharampeth,Office Washroom,9.8,1.6,8.9,Yes,822.0,0.0,2026-03-23,3.3,Low
+F0308,Civil Lines,School Washroom,5.7,4.7,41.5,Yes,494.0,4.0,2026-04-23,36.0,High
+F0309,Wardha Road,Transit Washroom,4.2,8.8,69.1,Yes,316.0,6.0,2026-01-15,12.3,High
+F0310,Sitabuldi,School Washroom,2.4,7.1,73.4,Yes,883.0,8.0,2026-06-08,5.1,High
+F0311,Sitabuldi,Hospital Washroom,7.0,4.1,36.7,Yes,403.0,1.0,2026-06-24,3.0,Low
+F0312,Dharampeth,Hospital Washroom,4.1,7.6,68.0,Yes,497.0,7.0,2026-07-06,5.6,High
+F0313,Wardha Road,Office Washroom,5.6,3.6,40.7,Yes,327.0,4.0,2026-09-07,27.9,Medium
+F0314,Hingna,Hospital Washroom,4.4,6.2,45.1,No,273.0,7.0,2026-03-31,8.2,High
+F0315,Sitabuldi,Transit Washroom,6.2,3.7,46.6,Yes,441.0,6.0,2026-01-17,6.4,Medium
+F0316,Dharampeth,Office Washroom,3.8,6.2,91.0,Yes,364.0,6.0,2026-06-19,5.1,High
+F0317,Manish Nagar,Office Washroom,5.4,6.5,29.8,Yes,20.0,4.0,2026-01-06,8.3,Medium
+F0318,Sitabuldi,School Washroom,4.7,6.3,64.9,Yes,438.0,6.0,2026-08-03,3.7,High
+F0319,Mihan,Public Washroom,4.5,6.6,55.3,Yes,400.0,4.0,2026-03-25,15.0,High
+F0320,Sitabuldi,Mall Washroom,4.0,7.1,62.5,Yes,422.0,7.0,2026-07-12,3.1,High
+F0321,Civil Lines,School Washroom,10.0,2.4,24.6,No,402.0,4.0,2026-03-26,16.8,Medium
+F0322,Manish Nagar,Hospital Washroom,4.5,6.8,66.9,Yes,555.0,9.0,2026-05-16,9.6,High
+F0323,Sadar,Public Washroom,6.4,5.0,20.3,Yes,246.0,2.0,2026-09-03,3.4,Low
+F0324,Mihan,School Washroom,7.1,4.7,39.5,Yes,798.0,6.0,2026-07-23,2.8,Medium
+F0325,Mihan,Hospital Washroom,7.6,2.8,24.9,Yes,260.0,3.0,2026-08-14,3.6,Low
+F0326,Kamptee Road,School Washroom,6.9,4.3,50.8,Yes,434.0,2.0,2026-06-26,0.7,Low
+F0327,Civil Lines,Office Washroom,8.9,1.8,0.0,Yes,290.0,0.0,2026-09-01,4.1,Low
+F0328,Dharampeth,School Washroom,5.6,4.9,52.4,No,372.0,6.0,2026-03-17,17.3,High
+F0329,Civil Lines,Hospital Washroom,9.0,5.3,46.1,Yes,360.0,4.0,2026-03-17,4.1,Low
+F0330,Kamptee Road,School Washroom,6.3,3.8,65.7,Yes,669.0,6.0,2026-05-22,6.0,Medium
+F0331,Dharampeth,Transit Washroom,6.7,4.2,36.0,Yes,151.0,4.0,2026-02-21,0.9,Low
+F0332,Civil Lines,Transit Washroom,8.4,3.0,2.2,Yes,759.0,0.0,2026-09-06,2.3,Low
+F0333,Nagpur Central,Mall Washroom,5.2,5.9,39.3,Yes,604.0,3.0,2026-05-02,3.9,Medium
+F0334,Dharampeth,Office Washroom,8.8,1.2,24.5,Yes,225.0,4.0,2026-09-09,2.8,Low
+F0335,Hingna,Mall Washroom,9.8,3.8,0.0,Yes,573.0,1.0,2026-04-19,4.0,Low
+F0336,Sitabuldi,Transit Washroom,5.4,4.0,55.0,Yes,795.0,6.0,2026-07-26,0.5,Medium
+F0337,Manish Nagar,Hospital Washroom,6.7,4.1,51.0,Yes,819.0,1.0,2026-04-12,2.2,Medium
+F0338,Sitabuldi,School Washroom,7.5,4.2,19.6,Yes,469.0,3.0,2026-08-17,3.5,Low
+F0339,Civil Lines,Office Washroom,4.9,5.5,73.3,Yes,829.0,6.0,2026-03-25,8.8,High
+F0340,Mihan,Office Washroom,8.2,4.0,12.4,Yes,402.0,4.0,2026-01-05,0.5,Low
+F0341,Hingna,Hospital Washroom,4.9,4.7,68.6,Yes,438.0,8.0,2026-08-05,2.7,High
+F0342,Kamptee Road,Mall Washroom,5.8,4.3,52.3,Yes,125.0,4.0,2026-01-04,6.6,Medium
+F0343,Wardha Road,Hospital Washroom,10.0,1.0,0.0,Yes,318.0,0.0,2026-05-22,8.6,Low
+F0344,Civil Lines,School Washroom,6.6,4.3,64.6,No,392.0,8.0,2026-01-30,10.9,High
+F0345,Civil Lines,Mall Washroom,4.9,4.4,54.2,No,114.0,6.0,2026-01-19,2.3,High
+F0346,Wardha Road,Transit Washroom,7.3,6.1,35.5,Yes,353.0,1.0,2026-09-01,7.6,Medium
+F0347,Wardha Road,Mall Washroom,6.0,5.8,38.2,Yes,194.0,4.0,2026-04-04,4.8,Medium
+F0348,Civil Lines,Hospital Washroom,3.4,8.6,78.4,Yes,293.0,10.0,2026-05-14,3.0,High
+F0349,Hingna,Transit Washroom,5.5,5.6,71.2,Yes,533.0,5.0,2026-03-03,7.3,High
+F0350,Sitabuldi,Hospital Washroom,6.6,4.3,47.1,Yes,525.0,5.0,2026-08-23,3.9,Medium
+F0351,Sitabuldi,Transit Washroom,7.2,3.2,48.2,No,526.0,8.0,2026-04-18,2.8,Medium
+F0352,Hingna,School Washroom,7.1,4.0,21.9,Yes,688.0,5.0,2026-07-26,7.5,Medium
+F0353,Sadar,Office Washroom,6.0,5.2,52.2,Yes,631.0,5.0,2026-01-03,2.9,Medium
+F0354,Manish Nagar,Hospital Washroom,5.3,5.3,42.2,Yes,211.0,6.0,2026-01-24,1.4,Medium
+F0355,Sitabuldi,School Washroom,4.2,7.2,49.4,Yes,394.0,8.0,2026-04-07,1.1,High
+F0356,Wardha Road,Mall Washroom,6.3,5.6,46.5,No,441.0,8.0,2026-03-05,5.3,High
+F0357,Nagpur Central,Mall Washroom,6.1,4.6,54.8,Yes,311.0,7.0,2026-01-11,0.5,Medium
+F0358,Manish Nagar,School Washroom,6.3,5.8,55.4,Yes,424.0,7.0,2026-01-05,1.7,Medium
+F0359,Manish Nagar,Public Washroom,4.9,4.5,55.5,Yes,727.0,8.0,2026-03-02,13.3,High
+F0360,Hingna,Hospital Washroom,8.3,3.0,11.3,Yes,502.0,0.0,2026-07-03,27.1,Low
+F0361,Civil Lines,Mall Washroom,7.7,4.7,50.8,Yes,250.0,4.0,2026-02-26,2.0,Low
+F0362,Mihan,Hospital Washroom,6.5,1.3,44.8,Yes,744.0,5.0,2026-04-29,17.6,Medium
+F0363,Dharampeth,Public Washroom,6.3,5.1,56.3,Yes,20.0,3.0,2026-03-01,3.3,Medium
+F0364,Dharampeth,Hospital Washroom,4.6,7.1,61.1,Yes,208.0,9.0,2026-05-18,23.3,High
+F0365,Dharampeth,Office Washroom,6.9,3.3,10.8,Yes,758.0,5.0,2026-03-27,3.7,Low
+F0366,Sitabuldi,Transit Washroom,3.7,7.2,64.1,No,552.0,11.0,2026-08-13,6.7,High
+F0367,Hingna,School Washroom,5.1,6.7,77.0,Yes,490.0,8.0,2026-02-27,27.2,High
+F0368,Wardha Road,Transit Washroom,9.5,2.5,19.6,Yes,336.0,0.0,2026-04-25,10.9,Low
+F0369,Nagpur Central,Mall Washroom,3.5,7.2,87.5,Yes,612.0,7.0,2026-01-28,3.2,High
+F0370,Sadar,Hospital Washroom,4.7,7.7,53.0,Yes,297.0,6.0,2026-06-14,10.4,High
+F0371,Dharampeth,School Washroom,7.0,3.9,42.4,Yes,741.0,1.0,2026-08-18,2.0,Low
+F0372,Dharampeth,Transit Washroom,7.3,3.1,38.6,Yes,371.0,3.0,2026-01-01,4.0,Low
+F0373,Mihan,Hospital Washroom,9.0,1.6,34.9,Yes,249.0,0.0,2026-04-25,4.6,Low
+F0374,Nagpur Central,Hospital Washroom,9.4,1.0,10.2,Yes,237.0,0.0,2026-04-24,0.9,Low
+F0375,Dharampeth,Hospital Washroom,4.7,7.8,65.1,Yes,166.0,7.0,2026-07-29,0.8,High
+F0376,Dharampeth,School Washroom,5.1,5.3,50.3,No,239.0,9.0,2026-06-23,11.4,High
+F0377,Nagpur Central,Transit Washroom,9.0,2.5,17.6,No,330.0,3.0,2026-09-13,4.6,Low
+F0378,Civil Lines,Office Washroom,5.2,5.7,37.5,Yes,20.0,3.0,2026-04-01,11.4,Medium
+F0379,Manish Nagar,School Washroom,6.3,4.0,30.9,No,623.0,4.0,2026-05-08,5.3,Medium
+F0380,Kamptee Road,Hospital Washroom,9.9,4.5,4.5,Yes,581.0,3.0,2026-06-03,9.0,Low
+F0381,Kamptee Road,Transit Washroom,5.3,2.7,48.0,Yes,320.0,3.0,2026-04-02,2.6,Medium
+F0382,Kamptee Road,Hospital Washroom,8.7,1.9,12.1,Yes,279.0,3.0,2026-08-02,6.3,Low
+F0383,Manish Nagar,Mall Washroom,7.8,2.3,38.4,Yes,438.0,4.0,2026-03-24,0.5,Low
+F0384,Dharampeth,Transit Washroom,6.9,4.1,66.7,Yes,326.0,7.0,2026-08-20,0.5,Medium
+F0385,Nagpur Central,School Washroom,8.5,1.0,40.7,Yes,157.0,2.0,2026-05-28,2.0,Low
+F0386,Sadar,Transit Washroom,3.1,5.4,96.9,No,323.0,12.0,2026-05-09,0.5,High
+F0387,Sadar,Hospital Washroom,9.0,1.0,11.6,Yes,485.0,0.0,2026-04-11,9.3,Low
+F0388,Hingna,Hospital Washroom,8.3,1.0,40.0,Yes,778.0,2.0,2026-01-21,1.0,Low
+F0389,Civil Lines,Public Washroom,5.5,5.3,43.2,Yes,344.0,5.0,2026-06-15,9.3,Medium
+F0390,Wardha Road,Transit Washroom,7.3,4.0,16.9,Yes,307.0,5.0,2026-02-07,6.0,Low
+F0391,Wardha Road,Hospital Washroom,6.6,5.2,57.7,Yes,538.0,6.0,2026-04-20,5.8,Medium
+F0392,Dharampeth,Mall Washroom,7.1,3.3,45.6,Yes,20.0,2.0,2026-01-05,13.0,Low
+F0393,Hingna,Hospital Washroom,5.6,6.2,32.0,Yes,45.0,5.0,2026-02-28,0.5,Medium
+F0394,Mihan,Public Washroom,5.2,4.8,52.3,No,523.0,7.0,2026-08-17,12.2,High
+F0395,Sadar,Mall Washroom,5.6,7.2,49.1,Yes,512.0,6.0,2026-02-03,26.7,High
+F0396,Dharampeth,Mall Washroom,4.1,6.3,58.1,Yes,506.0,5.0,2026-08-11,13.2,High
+F0397,Manish Nagar,School Washroom,6.2,4.5,45.4,Yes,370.0,4.0,2026-04-27,1.5,Medium
+F0398,Civil Lines,Public Washroom,7.1,2.5,50.9,Yes,757.0,4.0,2026-02-02,5.7,Medium
+F0399,Hingna,School Washroom,6.2,4.3,52.2,Yes,384.0,6.0,2026-08-13,2.7,Medium
+F0400,Sitabuldi,Hospital Washroom,8.1,3.0,26.0,Yes,498.0,5.0,2026-06-01,12.0,Low
+F0401,Nagpur Central,Public Washroom,4.5,3.9,67.8,Yes,88.0,3.0,2026-03-05,22.4,Medium
+F0402,Sadar,School Washroom,5.6,4.2,45.4,Yes,559.0,5.0,2026-06-26,10.1,Medium
+F0403,Kamptee Road,School Washroom,9.5,1.0,22.1,Yes,539.0,3.0,2026-01-28,2.2,Low
+F0404,Wardha Road,Office Washroom,8.3,2.4,23.0,Yes,429.0,3.0,2026-06-19,6.5,Low
+F0405,Civil Lines,Transit Washroom,5.7,4.5,49.5,Yes,511.0,4.0,2026-03-20,5.0,Medium
+F0406,Manish Nagar,Hospital Washroom,8.9,1.4,31.1,Yes,595.0,2.0,2026-08-12,1.9,Low
+F0407,Manish Nagar,Office Washroom,8.5,4.1,36.7,Yes,259.0,2.0,2026-02-11,2.7,Low
+F0408,Civil Lines,Transit Washroom,6.0,5.7,42.2,Yes,181.0,2.0,2026-01-16,16.7,Medium
+F0409,Hingna,Office Washroom,4.3,7.7,78.0,Yes,275.0,4.0,2026-07-07,36.0,High
+F0410,Kamptee Road,Public Washroom,7.0,5.3,27.2,Yes,602.0,5.0,2026-07-06,0.7,Medium
+F0411,Mihan,Hospital Washroom,4.5,4.3,68.2,Yes,145.0,4.0,2026-03-16,5.4,Medium
+F0412,Hingna,School Washroom,6.8,6.3,46.8,Yes,415.0,5.0,2026-07-04,8.3,Medium
+F0413,Civil Lines,Transit Washroom,6.4,1.0,33.4,Yes,508.0,1.0,2026-05-15,25.9,Low
+F0414,Hingna,Office Washroom,5.3,4.6,48.5,Yes,29.0,3.0,2026-05-09,0.6,Medium
+F0415,Sadar,Public Washroom,4.6,6.3,71.5,Yes,242.0,5.0,2026-03-26,7.0,High
+F0416,Hingna,Hospital Washroom,6.4,3.5,43.4,Yes,594.0,6.0,2026-04-28,12.7,Medium
+F0417,Sitabuldi,Mall Washroom,6.0,3.5,38.5,Yes,450.0,4.0,2026-03-24,13.4,Medium
+F0418,Civil Lines,Transit Washroom,6.5,1.8,41.2,Yes,679.0,7.0,2026-07-27,5.5,Medium
+F0419,Sitabuldi,Office Washroom,3.9,5.1,63.3,No,25.0,7.0,2026-09-04,1.8,High
+F0420,Sitabuldi,Mall Washroom,5.1,6.8,39.5,Yes,489.0,4.0,2026-05-16,8.1,Medium
+F0421,Hingna,Office Washroom,4.7,3.6,55.4,Yes,382.0,7.0,2026-09-16,1.1,Medium
+F0422,Dharampeth,School Washroom,6.6,3.8,37.2,No,64.0,4.0,2026-03-02,5.7,Medium
+F0423,Kamptee Road,School Washroom,4.2,4.4,63.5,No,427.0,7.0,2026-01-23,8.5,High
+F0424,Hingna,Office Washroom,7.2,4.1,62.2,Yes,214.0,5.0,2026-02-20,10.1,Medium
+F0425,Civil Lines,Transit Washroom,6.3,6.9,50.2,Yes,380.0,5.0,2026-01-04,5.9,Medium
+F0426,Hingna,Mall Washroom,6.6,4.5,43.7,Yes,356.0,3.0,2026-03-21,3.4,Medium
+F0427,Sitabuldi,Hospital Washroom,5.1,5.4,38.5,Yes,366.0,4.0,2026-09-05,36.0,High
+F0428,Dharampeth,Mall Washroom,7.2,2.4,31.4,No,94.0,4.0,2026-03-12,3.8,Medium
+F0429,Sitabuldi,School Washroom,6.8,6.5,46.9,Yes,398.0,5.0,2026-01-27,11.6,Medium
+F0430,Manish Nagar,Office Washroom,3.9,7.2,66.6,Yes,736.0,10.0,2026-02-02,4.3,High
+F0431,Sitabuldi,Mall Washroom,4.6,7.7,55.4,Yes,20.0,5.0,2026-01-30,8.0,High
+F0432,Civil Lines,Office Washroom,10.0,1.0,12.1,Yes,671.0,0.0,2026-04-29,1.6,Low
+F0433,Civil Lines,Office Washroom,5.6,4.3,30.2,Yes,20.0,2.0,2026-07-27,2.4,Low
+F0434,Wardha Road,Hospital Washroom,8.1,1.0,26.6,Yes,581.0,3.0,2026-06-28,13.3,Low
+F0435,Manish Nagar,Hospital Washroom,7.1,7.2,24.4,Yes,492.0,2.0,2026-09-15,1.4,Medium
+F0436,Hingna,Transit Washroom,6.3,6.9,37.1,No,716.0,6.0,2026-08-15,6.4,High
+F0437,Dharampeth,School Washroom,5.0,6.1,44.1,Yes,751.0,7.0,2026-05-13,17.0,High
+F0438,Manish Nagar,Office Washroom,4.7,3.5,26.2,Yes,454.0,6.0,2026-01-05,23.3,Medium
+F0439,Sitabuldi,Mall Washroom,6.0,6.3,47.9,Yes,228.0,4.0,2026-05-18,1.5,Medium
+F0440,Sadar,Office Washroom,7.6,2.2,5.6,Yes,541.0,5.0,2026-04-16,15.5,Low
+F0441,Kamptee Road,Public Washroom,8.2,1.0,13.2,Yes,730.0,4.0,2026-01-04,0.6,Low
+F0442,Mihan,Office Washroom,5.8,5.9,38.8,Yes,794.0,3.0,2026-05-21,6.4,Medium
+F0443,Kamptee Road,Hospital Washroom,10.0,1.0,10.1,Yes,583.0,1.0,2026-01-17,0.5,Low
+F0444,Nagpur Central,Mall Washroom,4.3,5.1,76.5,Yes,766.0,6.0,2026-01-05,4.6,High
+F0445,Wardha Road,Office Washroom,7.0,5.7,30.2,Yes,699.0,4.0,2026-06-25,6.0,Medium
+F0446,Civil Lines,Office Washroom,8.5,1.6,25.6,Yes,129.0,4.0,2026-04-03,2.5,Low
+F0447,Mihan,Public Washroom,9.3,1.4,27.1,Yes,106.0,2.0,2026-03-18,6.1,Low
+F0448,Manish Nagar,Hospital Washroom,5.4,6.3,68.2,No,585.0,7.0,2026-09-07,9.6,High
+F0449,Wardha Road,Hospital Washroom,4.1,6.3,47.9,Yes,630.0,4.0,2026-08-19,12.6,High
+F0450,Civil Lines,Transit Washroom,6.8,3.1,54.6,No,427.0,7.0,2026-04-12,1.0,Medium
+F0451,Hingna,Transit Washroom,5.0,4.7,68.4,Yes,406.0,6.0,2026-02-10,5.4,Medium
+F0452,Dharampeth,Public Washroom,4.4,6.2,81.7,Yes,627.0,9.0,2026-07-27,3.1,High
+F0453,Civil Lines,Transit Washroom,7.1,4.7,33.4,Yes,596.0,4.0,2026-07-05,7.8,Medium
+F0454,Sadar,Office Washroom,8.4,3.9,23.3,Yes,781.0,3.0,2026-02-10,8.1,Low
+F0455,Manish Nagar,Transit Washroom,5.7,5.7,65.3,Yes,333.0,0.0,2026-02-23,11.1,Medium
+F0456,Sitabuldi,Transit Washroom,5.5,6.6,69.4,No,369.0,10.0,2026-03-06,2.5,High
+F0457,Kamptee Road,School Washroom,6.6,4.1,28.2,Yes,56.0,5.0,2026-05-20,4.8,Low
+F0458,Kamptee Road,Mall Washroom,6.0,7.1,73.6,Yes,225.0,4.0,2026-08-11,10.4,Medium
+F0459,Nagpur Central,Public Washroom,5.4,4.7,43.4,Yes,654.0,4.0,2026-06-05,4.4,Medium
+F0460,Mihan,Hospital Washroom,7.5,1.3,31.1,Yes,367.0,4.0,2026-09-09,8.7,Low
+F0461,Sadar,Office Washroom,8.4,2.7,23.7,Yes,583.0,1.0,2026-07-22,3.5,Low
+F0462,Manish Nagar,Mall Washroom,7.7,2.9,13.0,Yes,446.0,3.0,2026-05-20,7.4,Low
+F0463,Civil Lines,School Washroom,6.2,2.4,22.8,Yes,654.0,2.0,2026-05-20,2.6,Low
+F0464,Sitabuldi,Mall Washroom,4.4,6.7,65.0,Yes,292.0,6.0,2026-05-18,0.8,High
+F0465,Mihan,Mall Washroom,6.2,4.9,48.2,Yes,450.0,5.0,2026-07-10,4.1,Medium
+F0466,Kamptee Road,School Washroom,4.2,7.1,52.1,Yes,501.0,6.0,2026-02-06,11.2,High
+F0467,Sadar,Mall Washroom,8.1,5.4,29.1,Yes,645.0,3.0,2026-08-15,27.5,Medium
+F0468,Manish Nagar,Hospital Washroom,4.6,7.3,60.3,Yes,700.0,8.0,2026-07-19,1.8,High
+F0469,Sadar,Public Washroom,8.1,4.7,28.5,Yes,152.0,2.0,2026-01-27,4.9,Low
+F0470,Nagpur Central,Public Washroom,8.1,3.0,44.0,Yes,510.0,1.0,2026-05-05,3.8,Low
+F0471,Nagpur Central,Public Washroom,3.9,6.1,63.8,Yes,311.0,4.0,2026-06-23,2.1,Medium
+F0472,Mihan,Mall Washroom,6.4,4.1,50.8,Yes,628.0,6.0,2026-06-27,2.9,Medium
+F0473,Sadar,Transit Washroom,7.4,5.5,30.7,No,522.0,5.0,2026-09-08,5.0,Medium
+F0474,Dharampeth,Transit Washroom,7.0,4.5,50.9,Yes,364.0,7.0,2026-03-24,18.4,Medium
+F0475,Civil Lines,Hospital Washroom,7.3,4.6,35.2,Yes,639.0,3.0,2026-01-10,7.6,Medium
+F0476,Kamptee Road,Office Washroom,7.2,4.0,27.0,Yes,280.0,1.0,2026-09-12,3.7,Low
+F0477,Sadar,Public Washroom,5.1,5.2,51.8,Yes,347.0,5.0,2026-01-17,0.5,Medium
+F0478,Nagpur Central,Hospital Washroom,5.5,4.9,53.1,Yes,596.0,3.0,2026-05-12,5.6,Medium
+F0479,Wardha Road,Transit Washroom,7.0,6.0,70.4,Yes,470.0,6.0,2026-02-01,19.8,High
+F0480,Dharampeth,Hospital Washroom,4.5,6.4,32.1,Yes,450.0,5.0,2026-01-21,7.2,Medium
+F0481,Kamptee Road,Mall Washroom,7.6,3.8,27.2,Yes,417.0,4.0,2026-04-02,3.7,Low
+F0482,Dharampeth,Office Washroom,9.0,1.0,12.7,Yes,137.0,0.0,2026-08-07,9.1,Low
+F0483,Wardha Road,School Washroom,7.0,2.4,18.5,Yes,420.0,6.0,2026-06-16,6.9,Low
+F0484,Wardha Road,School Washroom,4.7,6.4,44.9,Yes,210.0,4.0,2026-05-11,1.8,Medium
+F0485,Sadar,Office Washroom,4.6,6.8,54.7,Yes,20.0,6.0,2026-06-03,5.5,Medium
+F0486,Dharampeth,Public Washroom,6.3,4.9,43.0,Yes,364.0,3.0,2026-03-21,6.1,Medium
+F0487,Dharampeth,Mall Washroom,5.3,5.9,51.5,Yes,889.0,5.0,2026-04-22,2.2,Medium
+F0488,Civil Lines,Mall Washroom,8.7,1.6,38.0,Yes,706.0,1.0,2026-02-18,12.8,Low
+F0489,Dharampeth,Office Washroom,5.4,7.6,48.4,Yes,388.0,4.0,2026-08-02,11.1,Medium
+F0490,Wardha Road,Transit Washroom,9.3,1.7,0.0,No,222.0,2.0,2026-01-22,0.5,Low
+F0491,Dharampeth,Office Washroom,4.8,5.7,56.2,Yes,309.0,8.0,2026-09-16,36.0,High
+F0492,Manish Nagar,Public Washroom,5.8,3.1,60.0,Yes,301.0,6.0,2026-07-24,10.3,Medium
+F0493,Sadar,Public Washroom,4.8,7.0,51.2,Yes,77.0,4.0,2026-05-07,1.7,Medium
+F0494,Wardha Road,Office Washroom,7.9,3.0,45.7,Yes,334.0,3.0,2026-07-07,4.0,Low
+F0495,Mihan,Public Washroom,5.3,7.3,66.1,No,458.0,10.0,2026-03-16,7.2,High
+F0496,Sadar,Transit Washroom,6.3,5.5,40.6,Yes,627.0,7.0,2026-01-28,0.7,Medium
+F0497,Kamptee Road,Office Washroom,9.8,1.0,14.8,Yes,396.0,0.0,2026-04-18,0.9,Low
+F0498,Hingna,Transit Washroom,6.5,5.0,59.8,Yes,76.0,4.0,2026-01-10,1.1,Medium
+F0499,Dharampeth,School Washroom,8.3,1.8,27.1,Yes,507.0,2.0,2026-01-05,8.9,Low
+F0500,Sadar,School Washroom,8.5,1.5,8.0,No,362.0,5.0,2026-07-17,2.6,Low
+F0501,Nagpur Central,Office Washroom,3.4,7.5,84.7,Yes,286.0,8.0,2026-01-12,0.7,High
+F0502,Manish Nagar,Office Washroom,10.0,2.0,6.4,Yes,428.0,0.0,2026-07-01,8.6,Low
+F0503,Sadar,Office Washroom,10.0,1.0,11.2,Yes,507.0,5.0,2026-05-24,3.7,Low
+F0504,Hingna,Office Washroom,6.4,3.9,56.1,Yes,396.0,2.0,2026-04-27,8.5,Medium
+F0505,Sitabuldi,Hospital Washroom,4.6,5.8,53.3,Yes,707.0,5.0,2026-04-14,1.1,Medium
+F0506,Wardha Road,Public Washroom,4.3,5.7,35.6,No,20.0,9.0,2026-03-22,11.0,High
+F0507,Hingna,Hospital Washroom,2.1,7.8,92.1,Yes,560.0,9.0,2026-07-31,9.7,High
+F0508,Sitabuldi,Office Washroom,2.5,5.7,90.9,No,590.0,10.0,2026-02-24,11.3,High
+F0509,Mihan,Office Washroom,10.0,1.6,0.0,Yes,228.0,0.0,2026-02-10,6.8,Low
+F0510,Sitabuldi,Office Washroom,6.8,2.4,40.5,Yes,127.0,5.0,2026-03-12,5.1,Low
+F0511,Dharampeth,Office Washroom,6.7,5.6,73.0,No,332.0,7.0,2026-04-15,1.9,High
+F0512,Hingna,School Washroom,5.3,9.1,36.3,Yes,235.0,5.0,2026-05-07,4.6,Medium
+F0513,Kamptee Road,Public Washroom,6.8,2.4,50.9,Yes,116.0,1.0,2026-01-20,21.0,Medium
+F0514,Kamptee Road,School Washroom,5.4,3.3,61.3,Yes,695.0,5.0,2026-01-21,3.8,Medium
+F0515,Manish Nagar,Transit Washroom,3.7,7.1,79.8,Yes,485.0,8.0,2026-08-05,2.7,High
+F0516,Dharampeth,Office Washroom,4.5,8.2,51.1,No,121.0,9.0,2026-09-14,0.7,High
+F0517,Mihan,Public Washroom,7.2,1.0,34.7,Yes,318.0,3.0,2026-04-14,4.5,Low
+F0518,Mihan,Mall Washroom,8.7,2.3,45.2,No,530.0,3.0,2026-02-28,1.0,Medium
+F0519,Wardha Road,Transit Washroom,4.9,7.3,39.4,Yes,689.0,5.0,2026-03-29,22.4,High
+F0520,Manish Nagar,Mall Washroom,7.7,5.1,12.5,Yes,661.0,5.0,2026-06-07,0.5,Low
+F0521,Mihan,School Washroom,6.6,3.0,37.7,Yes,351.0,3.0,2026-08-23,1.7,Low
+F0522,Mihan,Public Washroom,5.4,5.5,53.0,No,452.0,10.0,2026-07-29,4.8,High
+F0523,Wardha Road,Public Washroom,6.2,4.7,54.5,Yes,310.0,5.0,2026-01-29,12.9,Medium
+F0524,Hingna,Office Washroom,7.6,3.6,36.4,Yes,272.0,2.0,2026-02-25,0.7,Low
+F0525,Nagpur Central,Public Washroom,7.2,4.7,25.7,Yes,140.0,5.0,2026-07-04,6.2,Low
+F0526,Manish Nagar,School Washroom,5.7,5.4,38.4,No,588.0,6.0,2026-02-03,13.9,High
+F0527,Mihan,Mall Washroom,8.3,4.2,24.7,Yes,696.0,2.0,2026-02-14,8.9,Low
+F0528,Sitabuldi,Transit Washroom,5.8,4.1,19.6,No,360.0,9.0,2026-07-01,2.9,High
+F0529,Dharampeth,Public Washroom,4.3,6.1,52.3,Yes,241.0,4.0,2026-01-01,7.1,Medium
+F0530,Wardha Road,Hospital Washroom,1.3,7.4,95.8,Yes,510.0,11.0,2026-01-24,4.0,High
+F0531,Nagpur Central,Public Washroom,3.9,6.4,76.3,Yes,440.0,6.0,2026-06-15,11.7,High
+F0532,Wardha Road,Mall Washroom,8.5,2.0,13.7,Yes,390.0,1.0,2026-06-19,1.4,Low
+F0533,Hingna,Mall Washroom,4.3,6.9,70.7,Yes,456.0,9.0,2026-08-25,4.6,High
+F0534,Wardha Road,Public Washroom,3.4,9.1,77.3,Yes,307.0,6.0,2026-06-19,0.5,High
+F0535,Manish Nagar,Mall Washroom,7.9,2.9,70.3,Yes,552.0,2.0,2026-03-01,13.9,Medium
+F0536,Sadar,Transit Washroom,5.6,6.7,34.4,Yes,815.0,7.0,2026-06-04,3.5,Medium
+F0537,Sitabuldi,Office Washroom,6.1,5.5,52.4,No,57.0,9.0,2026-09-14,4.4,High
+F0538,Kamptee Road,Mall Washroom,6.7,3.5,55.3,Yes,357.0,5.0,2026-02-20,11.0,Medium
+F0539,Wardha Road,School Washroom,7.7,3.3,46.2,Yes,479.0,3.0,2026-02-14,0.9,Low
+F0540,Wardha Road,Office Washroom,6.9,4.6,35.7,Yes,428.0,3.0,2026-04-18,10.7,Medium
+F0541,Sadar,Transit Washroom,6.9,5.1,33.5,Yes,645.0,4.0,2026-02-22,1.2,Medium
+F0542,Manish Nagar,Transit Washroom,6.7,3.6,51.6,Yes,379.0,3.0,2026-02-06,2.1,Medium
+F0543,Sitabuldi,Mall Washroom,8.2,1.8,31.4,No,446.0,5.0,2026-07-20,0.5,Medium
+F0544,Kamptee Road,Public Washroom,6.9,2.7,29.2,Yes,334.0,1.0,2026-04-12,2.8,Low
+F0545,Mihan,Office Washroom,9.5,1.1,9.2,Yes,455.0,0.0,2026-08-27,18.9,Low
+F0546,Wardha Road,School Washroom,6.8,4.9,38.3,No,419.0,8.0,2026-06-19,1.5,High
+F0547,Hingna,Mall Washroom,5.7,5.3,62.8,Yes,593.0,4.0,2026-02-22,2.5,Medium
+F0548,Sadar,Transit Washroom,8.4,2.9,14.5,Yes,501.0,0.0,2026-07-31,3.8,Low
+F0549,Kamptee Road,Mall Washroom,6.4,5.4,39.3,Yes,438.0,0.0,2026-06-25,8.9,Medium
+F0550,Wardha Road,Transit Washroom,8.6,2.6,45.2,Yes,690.0,2.0,2026-08-26,5.0,Low
+F0551,Mihan,Mall Washroom,8.1,3.7,24.0,Yes,639.0,1.0,2026-06-17,8.7,Low
+F0552,Sitabuldi,Mall Washroom,4.4,6.3,57.2,Yes,791.0,4.0,2026-01-01,7.6,High
+F0553,Hingna,Mall Washroom,7.8,4.5,17.6,Yes,614.0,2.0,2026-06-05,8.6,Low
+F0554,Manish Nagar,Public Washroom,8.7,3.5,22.3,Yes,1074.0,3.0,2026-03-07,3.9,Low
+F0555,Hingna,Mall Washroom,4.8,7.4,79.4,Yes,542.0,9.0,2026-05-01,3.3,High
+F0556,Mihan,Office Washroom,3.5,6.0,60.0,Yes,234.0,7.0,2026-03-30,1.8,High
+F0557,Nagpur Central,Office Washroom,7.1,5.1,61.9,Yes,237.0,4.0,2026-02-06,36.0,High
+F0558,Mihan,Mall Washroom,5.5,5.2,36.6,Yes,522.0,5.0,2026-08-01,7.7,Medium
+F0559,Civil Lines,School Washroom,4.8,5.4,65.9,Yes,667.0,5.0,2026-01-04,4.5,High
+F0560,Civil Lines,School Washroom,7.4,4.1,27.0,Yes,195.0,4.0,2026-01-20,3.4,Low
+F0561,Mihan,Transit Washroom,6.1,4.3,25.8,Yes,469.0,8.0,2026-05-24,9.9,Medium
+F0562,Kamptee Road,Transit Washroom,5.8,7.6,63.7,Yes,73.0,5.0,2026-02-09,24.2,High
+F0563,Wardha Road,Hospital Washroom,6.2,5.2,32.7,Yes,747.0,2.0,2026-08-04,5.4,Medium
+F0564,Mihan,Transit Washroom,7.0,3.9,42.6,No,428.0,4.0,2026-02-01,6.2,Medium
+F0565,Manish Nagar,Office Washroom,6.7,4.7,67.1,Yes,405.0,6.0,2026-05-23,2.5,Medium
+F0566,Mihan,Hospital Washroom,7.5,2.7,27.0,Yes,413.0,1.0,2026-03-19,18.1,Low
+F0567,Civil Lines,Office Washroom,6.9,3.2,35.0,Yes,188.0,3.0,2026-03-16,14.9,Medium
+F0568,Sadar,Transit Washroom,7.1,5.0,18.2,Yes,189.0,4.0,2026-03-27,9.7,Low
+F0569,Hingna,Mall Washroom,6.2,3.6,31.5,Yes,142.0,2.0,2026-04-30,1.4,Low
+F0570,Hingna,Mall Washroom,7.4,3.2,20.1,Yes,453.0,3.0,2026-08-18,19.7,Medium
+F0571,Wardha Road,Hospital Washroom,5.5,7.0,58.6,Yes,402.0,7.0,2026-05-20,3.3,High
+F0572,Kamptee Road,Hospital Washroom,4.2,6.7,70.5,Yes,136.0,8.0,2026-04-10,10.4,High
+F0573,Wardha Road,Office Washroom,3.8,3.5,67.0,Yes,459.0,4.0,2026-08-17,0.5,Medium
+F0574,Civil Lines,Mall Washroom,7.6,3.2,23.1,Yes,374.0,2.0,2026-04-22,6.8,Low
+F0575,Dharampeth,Mall Washroom,9.8,3.5,30.1,Yes,584.0,0.0,2026-04-05,10.8,Low
+F0576,Wardha Road,Hospital Washroom,3.7,7.7,79.4,Yes,644.0,8.0,2026-08-07,36.0,High
+F0577,Dharampeth,School Washroom,6.8,4.6,43.1,Yes,216.0,5.0,2026-08-14,0.5,Medium
+F0578,Sadar,Transit Washroom,6.0,5.9,46.8,Yes,365.0,4.0,2026-08-09,5.8,Medium
+F0579,Sitabuldi,Mall Washroom,3.8,5.0,66.4,Yes,329.0,6.0,2026-09-12,6.4,High
+F0580,Kamptee Road,Mall Washroom,8.5,1.0,0.4,Yes,394.0,3.0,2026-01-02,17.6,Low
+F0581,Dharampeth,Transit Washroom,8.5,1.9,0.7,Yes,595.0,2.0,2026-09-04,11.5,Low
+F0582,Wardha Road,Transit Washroom,6.4,1.0,34.9,Yes,405.0,4.0,2026-02-16,36.0,Medium
+F0583,Manish Nagar,Mall Washroom,7.4,2.7,48.2,Yes,117.0,0.0,2026-04-08,1.7,Low
+F0584,Sitabuldi,Public Washroom,4.7,5.8,63.9,Yes,20.0,5.0,2026-04-08,4.3,Medium
+F0585,Nagpur Central,Public Washroom,7.5,5.4,21.0,Yes,289.0,2.0,2026-08-19,5.8,Low
+F0586,Kamptee Road,Office Washroom,8.6,1.8,35.4,Yes,304.0,2.0,2026-08-23,8.0,Low
+F0587,Sitabuldi,Public Washroom,6.3,3.8,65.8,Yes,586.0,6.0,2026-05-05,0.5,Medium
+F0588,Dharampeth,Public Washroom,4.9,6.3,61.9,Yes,495.0,4.0,2026-02-02,1.4,Medium
+F0589,Dharampeth,Mall Washroom,3.0,8.0,79.6,Yes,820.0,10.0,2026-06-16,12.5,High
+F0590,Dharampeth,Public Washroom,6.1,4.3,43.6,Yes,530.0,2.0,2026-06-21,6.7,Medium
+F0591,Sitabuldi,Public Washroom,5.9,7.3,55.5,Yes,614.0,5.0,2026-07-12,2.1,Medium
+F0592,Hingna,Mall Washroom,5.9,5.5,45.0,Yes,738.0,4.0,2026-05-26,6.8,Medium
+F0593,Civil Lines,Office Washroom,7.6,1.3,30.2,Yes,290.0,0.0,2026-01-20,5.6,Low
+F0594,Sadar,Public Washroom,8.8,1.8,3.9,Yes,516.0,0.0,2026-05-01,4.1,Low
+F0595,Manish Nagar,Public Washroom,10.0,1.0,0.0,No,132.0,1.0,2026-04-17,5.3,Low
+F0596,Nagpur Central,Mall Washroom,7.0,4.8,62.4,Yes,674.0,4.0,2026-01-23,1.5,Medium
+F0597,Sitabuldi,Public Washroom,5.5,6.2,52.3,No,734.0,9.0,2026-04-01,4.5,High
+F0598,Wardha Road,Office Washroom,6.8,3.6,41.5,No,377.0,5.0,2026-04-12,3.0,Medium
+F0599,Nagpur Central,School Washroom,6.7,3.2,60.4,Yes,638.0,5.0,2026-09-06,3.5,Medium
+F0600,Manish Nagar,Office Washroom,8.5,4.3,50.9,Yes,339.0,3.0,2026-07-03,9.5,Low
+F0601,Manish Nagar,Transit Washroom,6.2,5.1,35.9,Yes,355.0,2.0,2026-04-23,4.7,Medium
+F0602,Dharampeth,School Washroom,8.0,4.3,50.8,No,669.0,6.0,2026-04-28,6.0,Medium
+F0603,Sadar,Hospital Washroom,7.8,2.0,50.5,Yes,421.0,3.0,2026-05-07,2.5,Low
+F0604,Nagpur Central,Public Washroom,3.3,6.9,76.3,No,889.0,10.0,2026-08-02,17.1,High
+F0605,Sadar,Public Washroom,9.5,1.4,1.8,Yes,423.0,1.0,2026-09-11,12.4,Low
+F0606,Nagpur Central,School Washroom,5.6,5.2,50.8,Yes,541.0,5.0,2026-02-16,2.6,Medium
+F0607,Sitabuldi,Hospital Washroom,5.9,4.4,31.3,Yes,502.0,3.0,2026-07-27,28.1,Medium
+F0608,Manish Nagar,School Washroom,6.6,3.0,27.0,Yes,278.0,2.0,2026-01-17,8.8,Low
+F0609,Kamptee Road,Mall Washroom,6.5,2.5,44.0,Yes,243.0,2.0,2026-01-29,8.7,Low
+F0610,Kamptee Road,Mall Washroom,5.2,5.5,58.6,Yes,367.0,5.0,2026-02-04,3.4,Medium
+F0611,Sadar,Hospital Washroom,6.6,3.7,33.7,Yes,665.0,4.0,2026-04-18,10.0,Medium
+F0612,Kamptee Road,Transit Washroom,2.6,7.8,87.4,Yes,416.0,8.0,2026-09-06,3.2,High
+F0613,Sadar,School Washroom,7.4,2.3,9.8,No,348.0,4.0,2026-02-03,4.5,Medium
+F0614,Sitabuldi,School Washroom,8.5,3.6,32.8,Yes,515.0,2.0,2026-02-27,1.4,Low
+F0615,Mihan,Mall Washroom,7.2,4.5,40.1,Yes,416.0,5.0,2026-08-04,8.6,Medium
+F0616,Hingna,Transit Washroom,5.5,4.8,43.3,Yes,540.0,4.0,2026-06-21,22.1,Medium
+F0617,Manish Nagar,Office Washroom,4.9,7.7,49.2,Yes,691.0,5.0,2026-03-09,13.8,High
+F0618,Mihan,Office Washroom,6.9,4.3,30.2,Yes,329.0,6.0,2026-05-26,1.2,Medium
+F0619,Sadar,Public Washroom,5.6,4.9,42.9,Yes,399.0,7.0,2026-03-24,9.2,Medium
+F0620,Wardha Road,Hospital Washroom,4.5,7.6,64.6,Yes,420.0,7.0,2026-01-18,6.2,High
+F0621,Wardha Road,Office Washroom,7.6,4.5,50.7,Yes,388.0,6.0,2026-08-23,0.5,Medium
+F0622,Civil Lines,Mall Washroom,5.0,8.1,57.6,No,261.0,11.0,2026-05-29,4.8,High
+F0623,Manish Nagar,Public Washroom,7.9,4.4,43.5,Yes,298.0,4.0,2026-03-01,9.9,Medium
+F0624,Manish Nagar,Office Washroom,5.8,3.2,65.4,Yes,491.0,5.0,2026-04-24,7.7,Medium
+F0625,Wardha Road,School Washroom,8.7,2.5,4.0,Yes,540.0,2.0,2026-01-29,5.4,Low
+F0626,Kamptee Road,Public Washroom,8.0,4.5,52.0,Yes,304.0,4.0,2026-08-17,3.2,Low
+F0627,Sitabuldi,Transit Washroom,7.2,6.5,36.4,Yes,202.0,3.0,2026-08-01,1.3,Medium
+F0628,Dharampeth,Public Washroom,2.4,8.0,75.9,Yes,697.0,8.0,2026-07-12,3.1,High
+F0629,Manish Nagar,Transit Washroom,2.9,9.7,60.6,Yes,573.0,8.0,2026-07-15,10.6,High
+F0630,Nagpur Central,Public Washroom,7.3,1.3,37.8,Yes,209.0,2.0,2026-04-25,10.1,Low
+F0631,Nagpur Central,Public Washroom,7.3,4.6,23.7,Yes,188.0,3.0,2026-05-06,8.2,Low
+F0632,Manish Nagar,Mall Washroom,7.6,3.5,17.4,No,260.0,5.0,2026-08-12,4.9,Medium
+F0633,Wardha Road,School Washroom,4.4,3.4,68.0,Yes,236.0,5.0,2026-03-16,0.5,Medium
+F0634,Nagpur Central,Hospital Washroom,8.9,2.6,16.7,Yes,397.0,3.0,2026-07-02,18.2,Low
+F0635,Wardha Road,Mall Washroom,5.7,7.1,58.8,Yes,497.0,5.0,2026-06-15,10.9,High
+F0636,Nagpur Central,Office Washroom,5.7,5.6,40.1,Yes,253.0,6.0,2026-03-15,3.2,Medium
+F0637,Kamptee Road,Transit Washroom,4.6,6.3,47.9,No,449.0,9.0,2026-04-07,0.8,High
+F0638,Mihan,Public Washroom,7.5,2.3,2.4,Yes,350.0,0.0,2026-08-02,12.2,Low
+F0639,Sitabuldi,Mall Washroom,7.1,4.4,51.0,Yes,452.0,0.0,2026-06-25,1.1,Low
+F0640,Sitabuldi,Office Washroom,8.4,1.9,48.2,Yes,663.0,5.0,2026-06-07,8.7,Low
+F0641,Nagpur Central,Mall Washroom,6.9,4.5,31.0,Yes,71.0,3.0,2026-02-25,11.2,Low
+F0642,Dharampeth,Transit Washroom,5.8,4.7,49.4,Yes,428.0,5.0,2026-02-19,8.3,Medium
+F0643,Wardha Road,Office Washroom,7.5,6.2,39.7,Yes,617.0,7.0,2026-06-28,14.0,Medium
+F0644,Kamptee Road,Office Washroom,4.7,7.7,40.4,Yes,347.0,6.0,2026-01-08,12.8,High
+F0645,Wardha Road,Mall Washroom,5.4,2.3,64.5,Yes,754.0,8.0,2026-09-01,9.7,Medium
+F0646,Kamptee Road,Office Washroom,4.4,5.4,54.4,No,516.0,10.0,2026-04-20,3.6,High
+F0647,Dharampeth,Hospital Washroom,3.7,8.5,62.5,Yes,656.0,6.0,2026-01-21,5.1,High
+F0648,Kamptee Road,School Washroom,7.6,2.1,34.1,Yes,400.0,0.0,2026-04-26,13.8,Low
+F0649,Dharampeth,School Washroom,5.5,8.0,54.5,Yes,507.0,5.0,2026-09-09,4.8,High
+F0650,Sitabuldi,Public Washroom,5.3,3.9,62.1,Yes,568.0,6.0,2026-02-22,6.7,Medium
+F0651,Hingna,Hospital Washroom,5.6,6.1,59.9,Yes,833.0,4.0,2026-05-20,2.0,Medium
+F0652,Dharampeth,Hospital Washroom,7.4,1.9,38.3,Yes,252.0,3.0,2026-02-25,11.0,Low
+F0653,Hingna,Transit Washroom,5.0,6.1,60.2,Yes,410.0,5.0,2026-04-02,13.3,High
+F0654,Mihan,Office Washroom,6.4,4.3,37.1,Yes,502.0,4.0,2026-09-10,10.4,Medium
+F0655,Dharampeth,School Washroom,5.8,6.7,32.3,Yes,421.0,7.0,2026-08-09,5.8,Medium
+F0656,Sitabuldi,School Washroom,6.8,1.8,49.3,Yes,563.0,4.0,2026-06-05,8.1,Medium
+F0657,Mihan,Transit Washroom,4.9,6.6,39.7,Yes,669.0,4.0,2026-08-29,5.1,Medium
+F0658,Manish Nagar,Hospital Washroom,5.6,6.3,38.4,Yes,20.0,4.0,2026-06-30,7.2,Medium
+F0659,Dharampeth,School Washroom,8.8,2.9,32.1,Yes,581.0,3.0,2026-07-14,6.6,Low
+F0660,Dharampeth,Hospital Washroom,3.8,6.5,78.7,Yes,342.0,6.0,2026-02-13,7.8,High
+F0661,Mihan,Transit Washroom,7.3,4.2,32.5,Yes,415.0,2.0,2026-01-11,4.1,Low
+F0662,Wardha Road,School Washroom,6.2,5.9,47.9,Yes,386.0,5.0,2026-04-16,5.0,Medium
+F0663,Kamptee Road,Office Washroom,3.2,7.8,62.9,Yes,687.0,5.0,2026-02-08,4.3,High
+F0664,Civil Lines,Public Washroom,6.5,4.4,47.7,No,301.0,8.0,2026-02-17,10.2,High
+F0665,Manish Nagar,School Washroom,5.1,5.3,40.3,Yes,320.0,7.0,2026-09-16,3.2,Medium
+F0666,Nagpur Central,Mall Washroom,8.0,2.4,19.6,Yes,427.0,4.0,2026-04-03,8.4,Low
+F0667,Civil Lines,Mall Washroom,5.3,3.2,45.7,No,359.0,4.0,2026-08-11,10.2,High
+F0668,Hingna,School Washroom,7.3,2.6,24.1,Yes,505.0,4.0,2026-06-03,8.7,Low
+F0669,Hingna,Office Washroom,4.9,8.3,66.6,Yes,488.0,6.0,2026-05-01,13.0,High
+F0670,Hingna,Mall Washroom,5.2,6.4,61.2,Yes,544.0,4.0,2026-08-12,6.2,Medium
+F0671,Mihan,Public Washroom,7.5,3.0,34.0,Yes,482.0,1.0,2026-01-22,2.4,Low
+F0672,Dharampeth,School Washroom,5.5,8.1,62.7,Yes,406.0,6.0,2026-07-06,23.3,High
+F0673,Mihan,Public Washroom,9.3,1.0,22.6,Yes,512.0,0.0,2026-05-09,20.3,Low
+F0674,Hingna,Office Washroom,5.9,5.1,56.0,Yes,290.0,6.0,2026-05-01,3.7,Medium
+F0675,Wardha Road,Transit Washroom,7.1,4.5,52.9,Yes,385.0,2.0,2026-02-27,6.7,Medium
+F0676,Manish Nagar,Public Washroom,6.5,2.8,53.3,No,805.0,5.0,2026-07-08,3.4,Medium
+F0677,Kamptee Road,School Washroom,3.9,4.9,89.3,Yes,508.0,9.0,2026-05-10,0.5,High
+F0678,Hingna,Public Washroom,5.0,4.8,89.9,Yes,472.0,5.0,2026-08-15,15.1,High
+F0679,Mihan,Mall Washroom,8.0,2.3,40.7,Yes,406.0,3.0,2026-03-24,13.0,Low
+F0680,Mihan,Mall Washroom,7.7,2.3,56.1,Yes,473.0,2.0,2026-09-09,0.6,Low
+F0681,Hingna,Transit Washroom,3.3,9.0,66.5,Yes,20.0,6.0,2026-06-30,13.0,High
+F0682,Mihan,Mall Washroom,4.3,6.5,45.8,Yes,304.0,3.0,2026-04-05,7.7,Medium
+F0683,Civil Lines,Mall Washroom,7.7,4.3,24.3,Yes,292.0,0.0,2026-03-08,1.3,Low
+F0684,Manish Nagar,Office Washroom,5.9,2.5,66.6,Yes,512.0,4.0,2026-06-17,1.4,Medium
+F0685,Dharampeth,School Washroom,8.0,3.6,19.3,Yes,562.0,3.0,2026-04-28,6.3,Low
+F0686,Wardha Road,Office Washroom,6.5,5.1,64.1,Yes,240.0,5.0,2026-02-15,2.3,Medium
+F0687,Sadar,Hospital Washroom,7.3,3.5,33.4,No,199.0,5.0,2026-04-15,4.5,Medium
+F0688,Sadar,School Washroom,5.6,5.0,67.5,Yes,614.0,4.0,2026-05-25,36.0,High
+F0689,Dharampeth,Public Washroom,7.8,5.3,69.4,Yes,538.0,4.0,2026-08-23,4.5,Medium
+F0690,Civil Lines,Hospital Washroom,8.9,1.0,27.4,No,308.0,5.0,2026-08-05,3.6,Low
+F0691,Nagpur Central,Hospital Washroom,8.6,3.1,55.3,Yes,593.0,1.0,2026-01-24,3.3,Low
+F0692,Civil Lines,Office Washroom,4.6,5.1,60.2,No,374.0,8.0,2026-01-22,16.7,High
+F0693,Wardha Road,Public Washroom,6.3,6.2,71.3,Yes,238.0,4.0,2026-03-01,2.9,Medium
+F0694,Civil Lines,Hospital Washroom,6.2,6.3,44.0,No,389.0,9.0,2026-05-15,4.2,High
+F0695,Nagpur Central,Office Washroom,4.4,6.5,74.0,Yes,739.0,4.0,2026-08-14,22.5,High
+F0696,Nagpur Central,School Washroom,4.9,6.7,66.0,Yes,407.0,8.0,2026-09-11,4.3,High
+F0697,Sitabuldi,Office Washroom,4.5,8.1,45.3,Yes,453.0,6.0,2026-05-26,15.1,High
+F0698,Kamptee Road,Transit Washroom,7.0,4.0,13.0,Yes,351.0,2.0,2026-01-03,36.0,Medium
+F0699,Hingna,Hospital Washroom,8.2,5.5,28.6,Yes,688.0,2.0,2026-03-04,3.0,Low
+F0700,Mihan,Mall Washroom,10.0,1.0,0.0,Yes,481.0,1.0,2026-09-03,13.3,Low
+F0701,Sadar,Public Washroom,8.9,1.6,58.9,Yes,451.0,1.0,2026-03-08,22.6,Low
+F0702,Hingna,Hospital Washroom,9.1,2.2,9.3,Yes,419.0,0.0,2026-02-17,6.9,Low
+F0703,Dharampeth,Hospital Washroom,8.6,5.4,28.6,Yes,358.0,3.0,2026-03-20,1.3,Low
+F0704,Wardha Road,Transit Washroom,4.9,4.7,58.8,Yes,306.0,7.0,2026-02-19,1.1,Medium
+F0705,Hingna,Mall Washroom,7.0,5.3,30.6,Yes,542.0,3.0,2026-04-06,0.7,Low
+F0706,Mihan,Transit Washroom,7.3,3.4,38.1,Yes,277.0,3.0,2026-03-21,8.7,Low
+F0707,Sadar,Transit Washroom,4.8,5.0,55.0,No,658.0,9.0,2026-06-03,4.9,High
+F0708,Dharampeth,School Washroom,7.2,2.3,45.2,Yes,659.0,3.0,2026-07-31,5.4,Low
+F0709,Sitabuldi,School Washroom,5.1,4.5,55.9,Yes,598.0,7.0,2026-04-02,5.3,Medium
+F0710,Civil Lines,Hospital Washroom,8.2,4.1,32.3,Yes,291.0,5.0,2026-08-19,10.6,Low
+F0711,Kamptee Road,Public Washroom,4.1,9.3,68.6,Yes,289.0,7.0,2026-08-11,30.2,High
+F0712,Manish Nagar,Transit Washroom,9.2,2.4,19.5,Yes,95.0,1.0,2026-09-07,15.2,Low
+F0713,Dharampeth,Public Washroom,7.4,1.9,22.3,Yes,20.0,3.0,2026-04-08,12.2,Low
+F0714,Dharampeth,Hospital Washroom,6.9,3.8,31.4,Yes,307.0,3.0,2026-04-08,2.1,Low
+F0715,Mihan,Transit Washroom,6.5,3.8,37.4,No,481.0,5.0,2026-01-11,10.1,Medium
+F0716,Hingna,School Washroom,7.1,4.0,49.8,Yes,275.0,4.0,2026-08-10,0.8,Low
+F0717,Sadar,Mall Washroom,6.2,3.1,35.3,Yes,368.0,2.0,2026-09-07,5.0,Low
+F0718,Dharampeth,School Washroom,5.0,6.2,58.0,Yes,265.0,5.0,2026-08-31,7.8,Medium
+F0719,Civil Lines,Mall Washroom,4.4,5.3,48.2,Yes,505.0,4.0,2026-04-23,9.7,Medium
+F0720,Hingna,Mall Washroom,6.8,3.3,56.9,Yes,365.0,3.0,2026-07-19,2.6,Medium
+F0721,Sitabuldi,Office Washroom,5.4,4.6,16.7,Yes,531.0,4.0,2026-09-05,1.7,Medium
+F0722,Kamptee Road,Public Washroom,5.6,6.0,69.7,Yes,20.0,7.0,2026-04-18,2.7,Medium
+F0723,Hingna,Public Washroom,8.2,2.8,26.8,Yes,759.0,0.0,2026-06-22,14.7,Low
+F0724,Kamptee Road,Hospital Washroom,6.3,4.2,40.5,Yes,420.0,5.0,2026-01-24,3.3,Medium
+F0725,Dharampeth,Transit Washroom,9.4,1.0,30.8,Yes,216.0,4.0,2026-02-26,0.5,Low
+F0726,Sadar,Hospital Washroom,5.3,3.7,36.7,Yes,188.0,3.0,2026-03-02,1.4,Medium
+F0727,Dharampeth,Office Washroom,7.3,4.6,20.8,Yes,523.0,2.0,2026-03-12,0.8,Low
+F0728,Sitabuldi,Public Washroom,5.0,4.7,62.4,Yes,441.0,8.0,2026-09-16,3.1,High
+F0729,Hingna,School Washroom,6.1,6.9,30.1,Yes,587.0,2.0,2026-03-12,10.5,Medium
+F0730,Sitabuldi,Public Washroom,5.8,7.6,35.1,No,98.0,7.0,2026-08-15,21.6,High
+F0731,Sitabuldi,Transit Washroom,5.9,3.6,60.4,Yes,514.0,3.0,2026-01-19,11.1,Medium
+F0732,Kamptee Road,Hospital Washroom,7.2,5.5,44.2,Yes,287.0,2.0,2026-07-25,2.6,Low
+F0733,Kamptee Road,Transit Washroom,6.1,3.8,32.5,No,772.0,8.0,2026-04-16,7.1,High
+F0734,Manish Nagar,Public Washroom,7.9,3.6,11.1,Yes,722.0,1.0,2026-04-12,3.9,Low
+F0735,Kamptee Road,Hospital Washroom,8.1,3.2,25.5,Yes,73.0,2.0,2026-06-09,36.0,Medium
+F0736,Hingna,Transit Washroom,7.2,3.8,28.9,Yes,515.0,1.0,2026-06-05,2.1,Low
+F0737,Civil Lines,Mall Washroom,6.9,4.4,26.2,Yes,651.0,3.0,2026-06-02,0.5,Low
+F0738,Wardha Road,Hospital Washroom,5.6,6.6,52.0,Yes,422.0,3.0,2026-04-30,9.4,Medium
+F0739,Wardha Road,School Washroom,5.7,7.5,46.1,Yes,109.0,5.0,2026-04-09,5.5,Medium
+F0740,Sadar,School Washroom,8.1,4.6,41.9,Yes,498.0,4.0,2026-09-01,16.5,Medium
+F0741,Mihan,Mall Washroom,8.9,3.0,7.2,Yes,591.0,0.0,2026-08-14,15.4,Low
+F0742,Sadar,School Washroom,5.0,8.4,52.6,Yes,671.0,8.0,2026-03-02,1.0,High
+F0743,Nagpur Central,Transit Washroom,3.3,8.1,84.9,No,357.0,10.0,2026-05-29,6.9,High
+F0744,Civil Lines,School Washroom,6.9,4.8,51.0,No,346.0,9.0,2026-03-14,11.7,High
+F0745,Hingna,School Washroom,10.0,1.8,19.5,Yes,331.0,2.0,2026-01-23,5.0,Low
+F0746,Sitabuldi,Transit Washroom,7.6,1.9,25.6,No,478.0,4.0,2026-03-09,9.5,Medium
+F0747,Sadar,School Washroom,4.3,5.0,59.3,Yes,321.0,4.0,2026-07-18,0.7,Medium
+F0748,Nagpur Central,Transit Washroom,4.5,6.3,65.1,Yes,263.0,6.0,2026-03-26,0.7,Medium
+F0749,Civil Lines,Transit Washroom,4.2,5.2,56.9,Yes,725.0,8.0,2026-01-28,0.7,High
+F0750,Manish Nagar,Office Washroom,5.7,5.8,65.5,No,805.0,11.0,2026-01-10,1.5,High
+F0751,Wardha Road,School Washroom,6.5,6.5,55.0,Yes,275.0,4.0,2026-01-12,7.0,Medium
+F0752,Manish Nagar,Office Washroom,6.7,4.4,44.5,Yes,359.0,4.0,2026-03-28,29.3,Medium
+F0753,Manish Nagar,School Washroom,7.7,5.3,52.2,Yes,877.0,5.0,2026-01-30,0.5,Medium
+F0754,Sadar,Office Washroom,6.1,5.5,51.6,No,403.0,11.0,2026-01-27,17.2,High
+F0755,Dharampeth,School Washroom,6.4,2.9,21.0,Yes,446.0,5.0,2026-07-28,0.9,Low
+F0756,Sadar,Transit Washroom,7.2,5.6,40.8,No,707.0,7.0,2026-02-21,6.6,High
+F0757,Sadar,Transit Washroom,5.8,4.7,36.0,Yes,330.0,4.0,2026-03-28,5.2,Medium
+F0758,Sitabuldi,Public Washroom,5.4,8.8,42.9,Yes,818.0,7.0,2026-05-29,24.4,High
+F0759,Nagpur Central,Office Washroom,10.0,2.1,10.4,Yes,595.0,2.0,2026-05-25,36.0,Low
+F0760,Hingna,Office Washroom,5.3,5.6,36.3,Yes,340.0,5.0,2026-05-24,1.1,Medium
+F0761,Wardha Road,Hospital Washroom,2.7,6.2,68.9,Yes,732.0,8.0,2026-05-06,2.3,High
+F0762,Nagpur Central,Public Washroom,4.3,7.5,97.6,Yes,531.0,7.0,2026-09-01,19.2,High
+F0763,Kamptee Road,Public Washroom,5.5,4.3,69.8,Yes,220.0,5.0,2026-02-09,5.8,Medium
+F0764,Hingna,Office Washroom,3.7,9.2,52.6,Yes,850.0,10.0,2026-07-03,3.5,High
+F0765,Wardha Road,Office Washroom,8.2,1.0,35.4,Yes,418.0,5.0,2026-05-24,1.6,Low
+F0766,Nagpur Central,Hospital Washroom,6.6,5.9,52.9,Yes,397.0,3.0,2026-07-05,5.1,Medium
+F0767,Mihan,Office Washroom,3.4,7.7,70.1,No,413.0,11.0,2026-09-14,7.6,High
+F0768,Dharampeth,Office Washroom,7.4,1.8,28.8,Yes,312.0,1.0,2026-03-07,0.5,Low
+F0769,Kamptee Road,School Washroom,6.3,6.4,47.7,Yes,695.0,3.0,2026-05-10,1.6,Medium
+F0770,Manish Nagar,Public Washroom,1.1,10.0,92.3,Yes,176.0,7.0,2026-07-28,2.9,High
+F0771,Wardha Road,Public Washroom,5.5,4.2,37.3,No,713.0,8.0,2026-08-18,1.9,High
+F0772,Dharampeth,Office Washroom,8.4,1.7,34.3,No,667.0,1.0,2026-08-05,1.9,Low
+F0773,Manish Nagar,Office Washroom,7.0,5.1,57.1,Yes,548.0,7.0,2026-06-21,4.2,Medium
+F0774,Civil Lines,Transit Washroom,6.9,4.8,46.4,Yes,616.0,5.0,2026-02-07,11.9,Medium
+F0775,Sitabuldi,Public Washroom,5.6,5.6,44.8,No,467.0,6.0,2026-02-03,18.6,High
+F0776,Manish Nagar,School Washroom,9.2,3.0,11.8,Yes,373.0,1.0,2026-01-27,8.5,Low
+F0777,Civil Lines,Transit Washroom,4.3,7.7,39.6,Yes,663.0,5.0,2026-08-08,7.3,High
+F0778,Dharampeth,Public Washroom,6.4,5.5,51.1,Yes,691.0,5.0,2026-02-25,6.6,Medium
+F0779,Sitabuldi,Office Washroom,5.8,4.9,52.1,Yes,290.0,4.0,2026-08-16,7.6,Medium
+F0780,Manish Nagar,Transit Washroom,8.4,2.9,29.6,Yes,202.0,1.0,2026-07-03,7.9,Low
+F0781,Nagpur Central,Office Washroom,8.9,1.0,29.1,Yes,581.0,4.0,2026-03-16,3.5,Low
+F0782,Dharampeth,Hospital Washroom,6.5,2.0,42.3,Yes,301.0,4.0,2026-04-14,1.7,Low
+F0783,Hingna,Hospital Washroom,7.2,5.2,31.6,Yes,199.0,2.0,2026-06-03,14.3,Medium
+F0784,Sadar,School Washroom,5.7,6.0,63.8,Yes,579.0,6.0,2026-04-25,0.5,Medium
+F0785,Wardha Road,Public Washroom,5.4,4.9,50.1,Yes,20.0,5.0,2026-01-04,10.1,Medium
+F0786,Nagpur Central,Public Washroom,7.6,3.7,35.1,Yes,393.0,4.0,2026-07-04,6.6,Low
+F0787,Manish Nagar,Public Washroom,6.9,5.1,42.0,Yes,598.0,4.0,2026-04-01,14.1,Medium
+F0788,Mihan,Office Washroom,7.7,5.2,35.5,Yes,454.0,3.0,2026-06-06,20.6,Medium
+F0789,Sitabuldi,Office Washroom,5.1,6.8,64.2,Yes,666.0,4.0,2026-03-02,7.3,High
+F0790,Nagpur Central,Transit Washroom,7.6,3.6,24.8,Yes,220.0,4.0,2026-05-06,28.3,Medium
+F0791,Sadar,Mall Washroom,3.2,6.5,71.0,Yes,549.0,7.0,2026-09-08,7.4,High
+F0792,Mihan,Transit Washroom,7.4,4.9,43.1,Yes,670.0,5.0,2026-07-11,10.4,Medium
+F0793,Sadar,Office Washroom,4.8,6.5,43.7,Yes,671.0,6.0,2026-01-19,5.1,High
+F0794,Wardha Road,Hospital Washroom,8.3,3.8,17.9,Yes,475.0,4.0,2026-03-22,3.6,Low
+F0795,Mihan,School Washroom,5.4,5.4,66.5,Yes,550.0,4.0,2026-08-07,6.6,Medium
+F0796,Dharampeth,Hospital Washroom,7.0,2.9,44.5,Yes,422.0,4.0,2026-05-16,4.4,Low
+F0797,Nagpur Central,Transit Washroom,7.7,2.7,15.1,Yes,426.0,2.0,2026-07-04,2.4,Low
+F0798,Sadar,Mall Washroom,7.3,4.0,45.1,Yes,298.0,6.0,2026-05-21,8.6,Medium
+F0799,Hingna,School Washroom,5.6,5.0,65.2,Yes,154.0,5.0,2026-06-27,2.3,Medium
+F0800,Sadar,Office Washroom,4.9,7.1,36.7,Yes,54.0,1.0,2026-07-23,22.7,Medium
+F0801,Wardha Road,Office Washroom,6.2,3.9,48.1,Yes,721.0,5.0,2026-02-13,4.7,Medium
+F0802,Civil Lines,Office Washroom,4.8,3.4,73.3,Yes,30.0,6.0,2026-03-13,0.5,Medium
+F0803,Wardha Road,Transit Washroom,5.3,7.7,33.8,Yes,430.0,3.0,2026-06-03,1.9,Medium
+F0804,Hingna,Office Washroom,7.8,5.5,35.4,No,739.0,10.0,2026-07-20,3.0,High
+F0805,Dharampeth,Mall Washroom,7.1,3.8,26.1,Yes,593.0,3.0,2026-03-29,24.5,Medium
+F0806,Manish Nagar,Office Washroom,5.2,5.5,54.0,Yes,288.0,5.0,2026-07-17,0.5,Medium
+F0807,Dharampeth,Office Washroom,6.7,6.2,46.1,Yes,462.0,5.0,2026-03-22,1.4,Medium
+F0808,Manish Nagar,School Washroom,4.9,4.7,54.3,Yes,853.0,5.0,2026-04-16,1.0,Medium
+F0809,Nagpur Central,Office Washroom,7.6,1.7,43.5,Yes,671.0,3.0,2026-04-14,1.7,Low
+F0810,Mihan,School Washroom,4.3,4.4,72.0,Yes,433.0,7.0,2026-09-09,6.3,High
+F0811,Hingna,Office Washroom,3.6,6.4,62.8,Yes,871.0,7.0,2026-03-31,9.0,High
+F0812,Hingna,Mall Washroom,4.8,7.0,76.3,Yes,188.0,7.0,2026-02-18,9.0,High
+F0813,Mihan,School Washroom,7.7,3.0,40.4,Yes,302.0,5.0,2026-04-22,2.6,Low
+F0814,Hingna,School Washroom,4.9,7.7,57.1,No,521.0,9.0,2026-06-16,10.9,High
+F0815,Sadar,School Washroom,7.1,4.7,41.2,Yes,444.0,2.0,2026-07-24,8.4,Medium
+F0816,Dharampeth,Public Washroom,6.8,5.2,43.3,Yes,644.0,6.0,2026-08-25,4.7,Medium
+F0817,Sitabuldi,Hospital Washroom,5.0,5.7,64.3,Yes,392.0,6.0,2026-02-21,13.8,High
+F0818,Wardha Road,Office Washroom,6.7,5.8,57.9,Yes,414.0,4.0,2026-08-14,2.4,Medium
+F0819,Hingna,Mall Washroom,6.5,4.8,39.1,Yes,293.0,5.0,2026-02-22,13.6,Medium
+F0820,Sadar,Office Washroom,3.9,6.9,71.2,Yes,482.0,4.0,2026-07-11,19.8,High
+F0821,Sitabuldi,Public Washroom,8.1,3.6,41.8,Yes,416.0,3.0,2026-03-27,8.3,Low
+F0822,Hingna,Public Washroom,10.0,1.0,15.4,Yes,298.0,0.0,2026-07-22,1.7,Low
+F0823,Civil Lines,Hospital Washroom,6.5,5.1,42.4,Yes,464.0,4.0,2026-05-23,0.5,Medium
+F0824,Manish Nagar,Public Washroom,7.7,5.9,40.6,Yes,458.0,2.0,2026-03-29,34.9,Medium
+F0825,Mihan,Public Washroom,2.1,6.7,76.1,No,117.0,9.0,2026-06-12,8.9,High
+F0826,Sadar,Public Washroom,8.7,1.4,40.2,Yes,197.0,3.0,2026-01-07,2.0,Low
+F0827,Sadar,Office Washroom,3.4,5.8,63.1,Yes,765.0,8.0,2026-06-01,7.3,High
+F0828,Sitabuldi,Hospital Washroom,7.1,2.6,52.2,Yes,328.0,0.0,2026-06-18,4.4,Low
+F0829,Wardha Road,Office Washroom,5.0,8.1,81.0,Yes,525.0,7.0,2026-06-19,12.6,High
+F0830,Civil Lines,School Washroom,5.0,6.1,61.5,No,824.0,9.0,2026-04-24,8.9,High
+F0831,Sitabuldi,Public Washroom,5.2,5.7,51.7,Yes,371.0,10.0,2026-04-15,23.0,High
+F0832,Manish Nagar,Office Washroom,8.3,3.5,43.0,Yes,504.0,5.0,2026-08-28,4.2,Low
+F0833,Dharampeth,Hospital Washroom,6.1,3.9,51.8,Yes,579.0,4.0,2026-09-04,4.5,Medium
+F0834,Nagpur Central,School Washroom,5.3,5.1,59.4,Yes,71.0,5.0,2026-09-04,10.7,Medium
+F0835,Mihan,Hospital Washroom,5.7,5.5,60.5,Yes,326.0,6.0,2026-06-06,6.0,Medium
+F0836,Nagpur Central,Public Washroom,8.1,1.6,42.6,Yes,591.0,4.0,2026-04-08,1.3,Low
+F0837,Civil Lines,Public Washroom,8.4,1.0,16.4,Yes,589.0,2.0,2026-06-07,3.8,Low
+F0838,Manish Nagar,Mall Washroom,4.5,6.2,63.6,No,217.0,10.0,2026-08-12,1.6,High
+F0839,Nagpur Central,Hospital Washroom,4.7,8.0,50.8,Yes,271.0,5.0,2026-09-02,3.7,High
+F0840,Manish Nagar,Office Washroom,7.1,2.6,22.7,Yes,325.0,2.0,2026-03-17,4.6,Low
+F0841,Kamptee Road,Office Washroom,2.7,6.4,78.9,Yes,400.0,9.0,2026-02-11,7.8,High
+F0842,Civil Lines,Hospital Washroom,5.4,6.2,47.5,Yes,337.0,3.0,2026-07-15,5.7,Medium
+F0843,Sadar,Mall Washroom,6.1,2.7,72.2,Yes,226.0,5.0,2026-05-18,6.4,Medium
+F0844,Kamptee Road,School Washroom,3.1,7.0,81.3,No,435.0,10.0,2026-08-02,0.5,High
+F0845,Civil Lines,Office Washroom,4.7,4.6,66.2,Yes,617.0,7.0,2026-08-19,1.7,High
+F0846,Mihan,Mall Washroom,10.0,1.2,16.5,Yes,439.0,0.0,2026-07-29,17.4,Low
+F0847,Mihan,School Washroom,7.2,3.5,33.5,Yes,362.0,3.0,2026-05-01,1.0,Low
+F0848,Dharampeth,Office Washroom,6.6,4.1,36.9,Yes,430.0,4.0,2026-01-22,6.6,Medium
+F0849,Wardha Road,Hospital Washroom,6.2,4.8,13.3,Yes,39.0,2.0,2026-08-08,20.2,Medium
+F0850,Wardha Road,Hospital Washroom,6.7,3.8,30.0,Yes,443.0,5.0,2026-01-30,3.8,Medium
+F0851,Sadar,Hospital Washroom,6.5,4.4,53.3,Yes,267.0,5.0,2026-05-24,19.4,Medium
+F0852,Nagpur Central,Mall Washroom,6.6,2.5,48.9,Yes,108.0,3.0,2026-06-14,0.5,Low
+F0853,Wardha Road,School Washroom,6.0,5.3,52.4,Yes,247.0,3.0,2026-02-11,7.0,Medium
+F0854,Manish Nagar,Transit Washroom,7.9,6.0,18.4,Yes,244.0,1.0,2026-07-17,0.8,Low
+F0855,Kamptee Road,School Washroom,6.8,4.9,22.7,Yes,393.0,5.0,2026-06-04,5.3,Medium
+F0856,Dharampeth,School Washroom,8.8,2.9,36.0,Yes,344.0,1.0,2026-02-15,1.8,Low
+F0857,Sitabuldi,Transit Washroom,6.9,4.1,51.1,Yes,345.0,3.0,2026-03-05,2.5,Medium
+F0858,Wardha Road,School Washroom,3.6,6.4,57.5,Yes,352.0,7.0,2026-02-03,6.4,High
+F0859,Dharampeth,Hospital Washroom,9.0,1.0,17.8,Yes,113.0,0.0,2026-05-13,25.4,Low
+F0860,Sitabuldi,Hospital Washroom,6.9,4.6,43.1,Yes,765.0,3.0,2026-07-08,0.9,Medium
+F0861,Sitabuldi,Transit Washroom,8.8,1.7,27.8,Yes,430.0,3.0,2026-07-06,14.1,Low
+F0862,Sadar,School Washroom,6.2,3.9,30.2,Yes,859.0,5.0,2026-06-01,2.8,Medium
+F0863,Dharampeth,Hospital Washroom,5.9,4.4,44.1,Yes,786.0,6.0,2026-09-15,13.2,Medium
+F0864,Nagpur Central,Hospital Washroom,6.8,6.2,40.4,Yes,552.0,3.0,2026-07-12,9.1,Medium
+F0865,Hingna,Hospital Washroom,8.1,4.6,48.0,Yes,20.0,5.0,2026-09-07,10.0,Medium
+F0866,Wardha Road,School Washroom,4.9,8.0,55.9,Yes,706.0,6.0,2026-08-31,3.1,High
+F0867,Manish Nagar,School Washroom,4.6,7.4,56.1,Yes,762.0,6.0,2026-01-28,14.5,High
+F0868,Nagpur Central,Hospital Washroom,7.0,3.0,23.8,Yes,20.0,3.0,2026-04-11,1.8,Low
+F0869,Dharampeth,Hospital Washroom,6.0,3.3,29.8,Yes,20.0,1.0,2026-01-29,22.5,Medium
+F0870,Hingna,Office Washroom,8.0,3.8,28.6,Yes,746.0,3.0,2026-03-18,6.7,Low
+F0871,Mihan,Mall Washroom,7.8,3.4,10.5,No,453.0,4.0,2026-02-15,7.9,Medium
+F0872,Nagpur Central,Transit Washroom,8.5,1.1,38.9,Yes,539.0,2.0,2026-04-26,1.0,Low
+F0873,Manish Nagar,Transit Washroom,4.2,6.0,60.8,Yes,789.0,4.0,2026-08-11,1.5,High
+F0874,Hingna,Transit Washroom,6.7,5.1,50.5,Yes,607.0,3.0,2026-01-11,3.9,Medium
+F0875,Dharampeth,Office Washroom,7.8,1.1,26.8,Yes,414.0,3.0,2026-04-17,5.8,Low
+F0876,Sitabuldi,Public Washroom,3.9,8.4,50.4,Yes,249.0,7.0,2026-04-16,0.5,High
+F0877,Sadar,Hospital Washroom,3.0,7.0,100.0,Yes,564.0,6.0,2026-01-01,3.4,High
+F0878,Wardha Road,Transit Washroom,5.9,8.1,58.6,No,356.0,10.0,2026-09-09,1.1,High
+F0879,Manish Nagar,Office Washroom,10.0,1.0,0.0,Yes,267.0,1.0,2026-03-14,8.1,Low
+F0880,Kamptee Road,Hospital Washroom,6.5,6.2,38.5,Yes,356.0,5.0,2026-02-08,7.3,Medium
+F0881,Dharampeth,Mall Washroom,6.2,6.7,54.2,No,637.0,9.0,2026-04-15,8.5,High
+F0882,Hingna,Office Washroom,6.0,4.5,2.4,Yes,504.0,5.0,2026-03-25,8.0,Medium
+F0883,Dharampeth,Hospital Washroom,5.0,8.1,30.8,Yes,821.0,4.0,2026-07-28,2.4,Medium
+F0884,Dharampeth,School Washroom,5.8,4.4,39.5,Yes,365.0,7.0,2026-01-06,1.9,Medium
+F0885,Dharampeth,Transit Washroom,7.7,3.2,56.0,Yes,315.0,5.0,2026-09-08,5.6,Medium
+F0886,Hingna,Office Washroom,4.6,5.4,75.4,Yes,416.0,7.0,2026-06-12,0.5,High
+F0887,Kamptee Road,Mall Washroom,4.6,8.2,77.5,Yes,375.0,6.0,2026-01-05,14.2,High
+F0888,Sadar,Mall Washroom,6.5,4.9,49.5,Yes,423.0,4.0,2026-07-09,9.7,Medium
+F0889,Manish Nagar,Mall Washroom,4.1,5.6,81.8,Yes,1018.0,7.0,2026-04-28,5.2,High
+F0890,Dharampeth,Office Washroom,8.4,4.6,0.0,Yes,393.0,3.0,2026-05-03,0.6,Low
+F0891,Mihan,School Washroom,5.7,5.1,43.5,Yes,923.0,8.0,2026-03-11,0.5,Medium
+F0892,Hingna,Mall Washroom,5.5,1.0,47.9,No,357.0,5.0,2026-01-04,7.2,Medium
+F0893,Civil Lines,School Washroom,4.7,6.0,80.3,No,418.0,11.0,2026-01-22,36.0,High
+F0894,Kamptee Road,Hospital Washroom,5.4,7.5,48.8,No,274.0,8.0,2026-03-10,0.6,High
+F0895,Manish Nagar,Hospital Washroom,8.3,2.3,17.5,Yes,576.0,2.0,2026-03-02,18.4,Low
+F0896,Mihan,Transit Washroom,8.8,1.2,24.0,Yes,280.0,0.0,2026-01-19,19.2,Low
+F0897,Wardha Road,Public Washroom,6.8,3.8,56.3,Yes,439.0,3.0,2026-07-25,0.9,Medium
+F0898,Nagpur Central,Office Washroom,8.9,3.3,31.6,Yes,303.0,2.0,2026-09-07,1.0,Low
+F0899,Mihan,Office Washroom,6.6,3.4,29.3,Yes,469.0,2.0,2026-08-13,16.7,Medium
+F0900,Nagpur Central,Office Washroom,6.1,6.3,65.0,Yes,687.0,4.0,2026-05-26,0.9,Medium
+F0901,Mihan,Transit Washroom,3.9,8.4,73.6,Yes,354.0,6.0,2026-08-04,4.9,High
+F0902,Sitabuldi,Public Washroom,5.1,3.9,56.7,Yes,432.0,2.0,2026-07-19,3.8,Medium
+F0903,Civil Lines,Mall Washroom,9.7,1.0,23.7,Yes,573.0,4.0,2026-08-08,8.7,Low
+F0904,Sadar,Hospital Washroom,7.5,5.0,35.3,Yes,632.0,5.0,2026-04-06,7.2,Medium
+F0905,Civil Lines,Office Washroom,6.8,1.6,51.3,Yes,424.0,3.0,2026-09-15,1.7,Low
+F0906,Sadar,Office Washroom,6.4,8.9,99.6,Yes,496.0,9.0,2026-05-21,3.8,High
+F0907,Hingna,School Washroom,4.0,7.8,69.8,Yes,468.0,6.0,2026-06-22,2.7,High
+F0908,Sadar,Hospital Washroom,5.4,6.9,59.0,Yes,591.0,7.0,2026-08-03,21.5,High
+F0909,Sitabuldi,Hospital Washroom,7.4,3.1,56.0,Yes,431.0,3.0,2026-08-09,2.5,Low
+F0910,Wardha Road,Hospital Washroom,8.9,3.3,17.7,Yes,459.0,2.0,2026-03-08,6.0,Low
+F0911,Sitabuldi,Mall Washroom,6.3,3.5,48.4,Yes,164.0,4.0,2026-02-24,7.9,Medium
+F0912,Dharampeth,Public Washroom,8.2,2.8,21.1,Yes,703.0,2.0,2026-08-17,1.6,Low
+F0913,Kamptee Road,Mall Washroom,8.9,1.5,16.9,Yes,666.0,2.0,2026-08-03,5.7,Low
+F0914,Dharampeth,School Washroom,7.2,3.8,65.9,Yes,928.0,3.0,2026-08-18,16.9,Medium
+F0915,Civil Lines,Public Washroom,8.2,3.4,43.3,Yes,321.0,2.0,2026-01-24,6.9,Low
+F0916,Sitabuldi,School Washroom,5.5,6.1,31.8,Yes,162.0,6.0,2026-02-08,15.3,Medium
+F0917,Kamptee Road,School Washroom,6.4,3.3,47.0,Yes,211.0,4.0,2026-01-05,1.5,Low
+F0918,Sitabuldi,Office Washroom,7.5,1.4,34.0,Yes,540.0,2.0,2026-03-02,2.3,Low
+F0919,Sadar,Transit Washroom,7.7,3.6,40.4,No,460.0,6.0,2026-05-08,19.7,High
+F0920,Sitabuldi,School Washroom,9.7,2.7,28.2,Yes,621.0,2.0,2026-05-16,22.0,Low
+F0921,Nagpur Central,Transit Washroom,7.7,2.7,52.2,Yes,401.0,3.0,2026-05-12,3.3,Low
+F0922,Civil Lines,Transit Washroom,4.9,4.7,34.4,No,124.0,6.0,2026-05-12,8.7,High
+F0923,Wardha Road,Office Washroom,7.0,5.4,34.7,Yes,562.0,3.0,2026-08-11,14.7,Medium
+F0924,Sitabuldi,Mall Washroom,7.7,3.8,29.1,Yes,603.0,6.0,2026-09-09,1.6,Low
+F0925,Hingna,Public Washroom,6.1,6.0,66.5,Yes,162.0,6.0,2026-08-21,1.6,Medium
+F0926,Nagpur Central,Mall Washroom,8.0,2.9,22.5,Yes,530.0,3.0,2026-02-26,3.6,Low
+F0927,Kamptee Road,Mall Washroom,7.3,3.4,37.7,No,257.0,6.0,2026-02-24,6.9,Medium
+F0928,Manish Nagar,Hospital Washroom,6.1,6.0,22.2,Yes,668.0,6.0,2026-03-25,16.7,Medium
+F0929,Kamptee Road,School Washroom,5.0,6.1,46.4,Yes,383.0,7.0,2026-02-22,0.5,Medium
+F0930,Hingna,Mall Washroom,7.1,5.7,62.1,Yes,318.0,5.0,2026-04-26,8.0,Medium
+F0931,Dharampeth,Hospital Washroom,9.0,1.0,27.5,Yes,517.0,3.0,2026-06-20,0.8,Low
+F0932,Hingna,Office Washroom,5.9,7.7,34.3,No,320.0,7.0,2026-04-03,5.7,High
+F0933,Dharampeth,Public Washroom,8.7,1.1,15.5,Yes,302.0,0.0,2026-05-16,2.4,Low
+F0934,Dharampeth,Public Washroom,6.4,6.9,14.9,Yes,505.0,5.0,2026-09-02,4.4,Medium
+F0935,Mihan,Mall Washroom,2.2,7.3,81.1,No,524.0,10.0,2026-08-06,1.5,High
+F0936,Hingna,Transit Washroom,7.5,5.2,31.3,Yes,771.0,7.0,2026-07-16,19.1,Medium
+F0937,Dharampeth,Office Washroom,4.1,6.9,39.7,Yes,347.0,4.0,2026-04-23,6.5,Medium
+F0938,Nagpur Central,Hospital Washroom,7.6,2.8,40.8,Yes,268.0,4.0,2026-02-26,1.1,Low
+F0939,Sadar,Office Washroom,4.0,8.9,67.4,Yes,311.0,3.0,2026-08-04,13.5,High
+F0940,Hingna,Hospital Washroom,5.0,6.2,52.8,Yes,763.0,5.0,2026-01-14,3.6,Medium
+F0941,Dharampeth,Public Washroom,7.2,4.0,23.3,Yes,307.0,3.0,2026-05-06,1.3,Low
+F0942,Mihan,School Washroom,7.2,1.6,26.4,Yes,579.0,5.0,2026-06-03,10.3,Low
+F0943,Kamptee Road,Office Washroom,6.0,3.6,46.6,Yes,401.0,3.0,2026-03-30,0.5,Medium
+F0944,Manish Nagar,Mall Washroom,4.4,9.1,64.2,Yes,628.0,6.0,2026-09-14,13.3,High
+F0945,Sadar,School Washroom,7.0,7.0,38.2,Yes,525.0,4.0,2026-01-29,22.6,Medium
+F0946,Hingna,School Washroom,4.5,7.4,82.7,Yes,650.0,5.0,2026-06-10,4.7,High
+F0947,Sadar,Hospital Washroom,8.1,4.9,23.5,Yes,314.0,0.0,2026-01-15,0.6,Low
+F0948,Nagpur Central,Office Washroom,4.2,7.1,69.9,Yes,911.0,7.0,2026-04-14,1.6,High
+F0949,Wardha Road,Hospital Washroom,5.8,8.7,33.2,Yes,317.0,4.0,2026-01-05,0.5,Medium
+F0950,Wardha Road,School Washroom,10.0,2.5,7.8,Yes,270.0,2.0,2026-02-19,1.0,Low
+F0951,Manish Nagar,Office Washroom,8.2,1.9,4.0,Yes,424.0,0.0,2026-01-20,11.9,Low
+F0952,Sitabuldi,Transit Washroom,7.0,4.8,51.7,No,721.0,9.0,2026-03-14,16.2,High
+F0953,Nagpur Central,Mall Washroom,3.3,7.5,53.5,Yes,20.0,5.0,2026-08-09,11.5,High
+F0954,Dharampeth,Public Washroom,7.9,3.3,17.2,Yes,363.0,2.0,2026-09-12,1.2,Low
+F0955,Sitabuldi,Public Washroom,8.8,4.3,0.0,Yes,260.0,3.0,2026-06-01,0.7,Low
+F0956,Manish Nagar,School Washroom,7.3,3.5,49.4,Yes,592.0,6.0,2026-08-31,2.2,Medium
+F0957,Mihan,Hospital Washroom,5.8,4.6,62.7,Yes,630.0,3.0,2026-03-08,14.7,Medium
+F0958,Civil Lines,Mall Washroom,8.6,1.0,23.1,Yes,626.0,3.0,2026-01-22,4.5,Low
+F0959,Sadar,School Washroom,9.5,2.3,10.9,Yes,161.0,0.0,2026-02-07,0.8,Low
+F0960,Dharampeth,Office Washroom,8.1,4.3,14.3,Yes,163.0,2.0,2026-02-25,12.8,Low
+F0961,Sadar,Mall Washroom,5.9,2.2,70.1,Yes,253.0,2.0,2026-09-06,3.0,Medium
+F0962,Wardha Road,Transit Washroom,10.0,1.0,5.1,Yes,20.0,0.0,2026-04-20,1.2,Low
+F0963,Hingna,Hospital Washroom,8.9,2.4,0.0,Yes,782.0,1.0,2026-01-12,4.2,Low
+F0964,Hingna,Transit Washroom,6.5,4.5,52.2,Yes,416.0,5.0,2026-08-20,15.5,Medium
+F0965,Wardha Road,School Washroom,7.3,6.4,38.2,No,496.0,8.0,2026-04-12,4.2,High
+F0966,Nagpur Central,Transit Washroom,6.0,3.4,50.0,Yes,660.0,4.0,2026-07-19,18.3,Medium
+F0967,Nagpur Central,Office Washroom,6.9,2.4,58.3,Yes,583.0,7.0,2026-06-12,2.9,Medium
+F0968,Kamptee Road,Mall Washroom,6.0,7.4,28.2,Yes,272.0,7.0,2026-05-15,8.4,Medium
+F0969,Hingna,Mall Washroom,8.5,2.5,29.1,Yes,330.0,3.0,2026-04-07,26.2,Low
+F0970,Wardha Road,Hospital Washroom,7.2,3.0,34.8,Yes,116.0,6.0,2026-01-08,26.7,Medium
+F0971,Kamptee Road,School Washroom,10.0,1.3,0.0,Yes,424.0,0.0,2026-06-30,7.9,Low
+F0972,Kamptee Road,School Washroom,6.9,1.9,36.4,Yes,534.0,5.0,2026-03-25,1.5,Low
+F0973,Dharampeth,Public Washroom,3.7,9.0,63.0,Yes,211.0,9.0,2026-02-14,7.3,High
+F0974,Mihan,Transit Washroom,4.7,5.2,44.1,Yes,62.0,5.0,2026-02-21,19.7,Medium
+F0975,Dharampeth,Hospital Washroom,6.0,4.8,44.4,Yes,652.0,4.0,2026-08-29,4.5,Medium
+F0976,Wardha Road,Office Washroom,7.3,6.5,30.0,Yes,576.0,2.0,2026-01-04,10.1,Medium
+F0977,Nagpur Central,Public Washroom,4.9,6.1,51.4,No,271.0,8.0,2026-08-01,18.0,High
+F0978,Civil Lines,School Washroom,6.2,7.1,50.3,Yes,70.0,4.0,2026-03-29,2.9,Medium
+F0979,Sitabuldi,School Washroom,6.7,7.8,48.8,Yes,726.0,5.0,2026-07-19,12.1,High
+F0980,Manish Nagar,Transit Washroom,5.9,6.4,39.3,Yes,750.0,7.0,2026-07-20,5.3,Medium
+F0981,Civil Lines,School Washroom,7.3,4.7,39.0,Yes,457.0,5.0,2026-02-10,11.0,Medium
+F0982,Manish Nagar,Office Washroom,8.6,4.5,28.2,No,176.0,3.0,2026-04-24,1.5,Medium
+F0983,Civil Lines,Public Washroom,5.0,5.8,61.6,Yes,50.0,4.0,2026-01-12,8.1,Medium
+F0984,Mihan,Hospital Washroom,10.0,3.3,32.6,Yes,537.0,3.0,2026-02-09,1.5,Low
+F0985,Hingna,Hospital Washroom,7.5,3.0,54.6,Yes,661.0,3.0,2026-08-03,5.0,Medium
+F0986,Dharampeth,Hospital Washroom,5.5,4.5,41.1,Yes,286.0,7.0,2026-01-17,8.1,Medium
+F0987,Kamptee Road,Public Washroom,8.6,2.3,11.3,Yes,248.0,2.0,2026-01-16,10.2,Low
+F0988,Sadar,Public Washroom,5.8,3.0,47.1,Yes,118.0,6.0,2026-03-12,0.5,Medium
+F0989,Hingna,Transit Washroom,5.8,2.1,48.0,No,680.0,6.0,2026-09-11,3.2,Medium
+F0990,Dharampeth,Transit Washroom,5.9,7.9,38.4,Yes,566.0,8.0,2026-07-21,9.5,High
+F0991,Wardha Road,Transit Washroom,7.1,2.2,42.9,Yes,558.0,1.0,2026-05-20,4.3,Low
+F0992,Sitabuldi,Public Washroom,7.2,4.8,45.8,Yes,146.0,6.0,2026-08-19,12.8,Medium
+F0993,Sitabuldi,Hospital Washroom,7.8,2.9,15.7,Yes,590.0,1.0,2026-02-28,22.5,Low
+F0994,Dharampeth,Public Washroom,6.0,4.2,51.9,Yes,476.0,6.0,2026-06-10,1.2,Medium
+F0995,Kamptee Road,Office Washroom,6.3,4.9,37.8,Yes,646.0,3.0,2026-04-19,17.2,Medium

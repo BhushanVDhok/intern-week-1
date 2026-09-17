@@ -1,69 +1,69 @@
 # Day 2: Python Development
 
-## Overview
+This folder contains a menu-driven Employee Management System, nine standalone Python practice exercises, and a sample employee CSV file.
 
-This submission contains a simple JSON-based Employee Management System and two data-analysis scripts. It demonstrates Python basics, functions, lists/dictionaries, file handling, CRUD operations, filtering, sorting, statistics, and exception handling.
-
-## Structure
+## Project structure
 
 ```text
 day-02/
-|- management-system/
-|  |- app.py
-|  `- data.json
-|- python-exercises/
-|  |- exercise.py
-|  `- data.json
-`- csv-analysis/
-   |- employee_data.csv
+├── management-system/
+│   ├── app.py                 # interactive JSON-based employee manager
+│   └── data.json              # employee records used by the app
+├── python-exercises/
+│   ├── 01-evenOdd.py
+│   ├── 02-largestNum.py
+│   ├── 03-countVowels.py
+│   ├── 04-removeDupli.py
+│   ├── 05-commonEl.py
+│   ├── 06-frequency_string.py
+│   ├── 07-filterEven.py
+│   ├── 08-calculator.py
+│   └── 09-student_class.py
+└── csv-analysis/
+    └── employee_data.csv      # sample CSV; no analysis script is included
 ```
 
-## Features
+## Employee Management System
 
-- Add, update, delete, search, filter, sort, and list employees.
-- Store employee records in a JSON file.
-- Calculate total employees, salary statistics, highest-paid employee, and department counts.
-- Analyze JSON and CSV data for record count, missing values, duplicates, average/minimum/maximum salary, and department-wise statistics.
-- Handle invalid menu choices, invalid numeric input, missing files, invalid JSON, duplicate IDs, and unknown employee IDs.
+`management-system/app.py` uses Python's standard library (`json` and `pathlib`) and stores employee records in `data.json`. Each employee has an ID, name, department, and salary.
 
-## Technology
+Available menu actions:
 
-Python 3 standard library only: `json`, `csv`, and `pathlib`.
+- List, add, update, and delete employees.
+- Search by employee name or ID.
+- Filter by department.
+- Sort by name or salary.
+- Display employee count, salary statistics, highest-paid employee, and department counts.
 
-## Python setup
+The app handles missing or invalid JSON files, duplicate IDs, unknown IDs, invalid menu selections, invalid numeric input, and negative salaries.
 
-Install Python 3 from [python.org](https://www.python.org/downloads/) and select **Add Python to PATH** during installation. Check that it is available:
+Run it from `day-02`:
+
+```powershell
+python .\management-system\app.py
+```
+
+The app changes `management-system/data.json` when an employee is added, updated, or deleted.
+
+## Python exercises
+
+Run any exercise from `day-02` by using its actual filename, for example:
+
+```powershell
+python .\python-exercises\01-evenOdd.py
+python .\python-exercises\08-calculator.py
+```
+
+The exercises cover even/odd checking, largest-number search, vowel counting, duplicate removal, common list elements, character frequency, lambda filtering, a calculator with divide-by-zero handling, and a simple `Student` class.
+
+## CSV sample
+
+`csv-analysis/employee_data.csv` is a small practice dataset with employee ID, name, department, and salary fields. It contains an empty salary field and a duplicate row, but this repository does not currently include a CSV-analysis program.
+
+## Requirements
+
+Python 3 is the only requirement. No third-party packages are needed.
 
 ```powershell
 python --version
 ```
-
-## Run the programs
-
-Run these commands from the `day-02` folder:
-
-```powershell
-python .\management-system\app.py
-python .\python-exercises\exercise.py
-python .\csv-analysis\employee_data.py
-```
-
-## Data design
-
-Every employee has `id`, `name`, `department`, and `salary`. JSON is used by the CLI because a list of dictionaries can be saved directly. CSV is used in the separate analysis exercise to demonstrate tabular-data reading.
-
-## Challenges and solutions
-
-- **Handling incomplete salary data:** One employee record in the practice data has an empty salary. Using that value directly in `sum()`, `min()`, or `max()` would cause an error. The analysis scripts first create a separate list containing only available salaries. The empty value is still counted in the missing-values report, so it is not silently ignored.
-
-- **Avoiding duplicate employee IDs:** An ID is used to find, update, and delete an employee. If two employees had the same ID, those operations could affect the wrong record. Before adding an employee, the program checks the existing records and shows a message if the ID is already present.
-
-- **Keeping file data safe to use:** The app reads from a JSON file every time it starts. A missing file, invalid JSON, or a file with the wrong structure should not make the program stop unexpectedly. The file-reading code uses `try/except` and returns an empty list with a clear error message when it cannot load valid data.
-
-- **Invalid input from the menu:** Values such as employee ID and salary must be numbers, but users can type anything. The input helper catches conversion errors and asks again instead of ending the application. The salary is also checked so that a negative value cannot be saved.
-
-## Future improvements
-
-- Add automated tests to make sure each feature works correctly after future changes.
-- Store employee data in a database instead of a JSON file. This will make the app easier to manage as the amount of data grows.
-- Create a web API so a website or mobile app can use the employee-management features.

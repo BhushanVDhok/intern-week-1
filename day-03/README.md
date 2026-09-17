@@ -1,26 +1,35 @@
-# Day 3: Data Analysis & Python for AI/ML
+# Day 3: Facility Hygiene Data Analysis
 
-This small project cleans, analyzes, and visualizes facility-inspection data with pandas, NumPy, and Matplotlib.
+This project cleans, analyses, and visualises the supplied **synthetic Facility Hygiene ML Dataset**. It uses the workbook in `dataset/facility_hygiene_ml_dataset.xlsx`; it does not use the earlier CSV dataset.
 
-## Included work
+## Dataset
 
-- A raw facility dataset with missing, duplicate, and invalid data.
-- A cleaning script that removes duplicates and fills corrected missing values.
-- An analysis script with statistics, a footfall outlier, and three useful insights.
-- Five charts: two bar charts, a histogram, a scatter plot, and a pie chart.
+The supplied Excel workbook has three sheets:
 
-## Python setup
+- **Facility Hygiene Dataset** — 1,000 facility-inspection records used by the scripts.
+- **Data Dictionary** — field descriptions and suggested ML roles.
+- **README** — notes that the dataset is synthetic and includes deliberate cleaning practice issues.
 
-Install Python 3 from [python.org](https://www.python.org/downloads/) and select **Add Python to PATH** during installation. Check the version, then install the required libraries:
+The analysis sheet contains 12 columns: `facility_id`, `location`, `facility_type`, `cleanliness_score`, `odor_score`, `waste_level`, `water_availability`, `footfall`, `complaints`, `inspection_date`, `hours_since_cleaning`, and `hygiene_risk`. `hygiene_risk` has the values Low, Medium, and High.
+
+Important: this is generated training data, not real facility measurements.
+
+## Cleaning performed
+
+`data-cleaning/clean_data.py` removes the 5 exact duplicate rows, trims text fields, checks expected numeric ranges, replaces invalid values with missing values, fills numeric missing values with each column's median, and fills missing water availability with its most common value. It saves 995 cleaned records to `dataset/cleaned_facility_hygiene_data.csv`.
+
+## Requirements
+
+Install Python 3, then install the packages needed for Excel input, analysis, and charts:
 
 ```powershell
 python --version
-pip install pandas numpy matplotlib
+pip install pandas numpy matplotlib openpyxl
 ```
 
 ## Run
 
-From `day-03`, run:
+From the `day-03` directory, run:
 
 ```powershell
 python .\data-cleaning\clean_data.py
@@ -28,10 +37,17 @@ python .\analysis\analyze_data.py
 python .\visualizations\visualize_data.py
 ```
 
-The cleaned data is saved in `dataset/cleaned_facility_data.csv`; chart PNG files are saved in `visualizations/`.
+Run the cleaning script first because the analysis and visualisation scripts use the cleaned CSV it creates.
 
-## Findings
+## Outputs
 
-1. Dadar has the lowest cleanliness average and the most complaints.
-2. High waste-level facilities have worse odor scores and more complaints.
-3. F012 is a footfall outlier and may need more frequent cleaning.
+- `dataset/cleaned_facility_hygiene_data.csv` — cleaned analysis-ready data.
+- `visualizations/hygiene_risk_distribution.png` — count of Low, Medium, and High risk records.
+- `visualizations/risk_score_comparison.png` — average cleanliness and odor scores by risk level.
+- `visualizations/complaints_by_location.png` — average complaints per inspection by location.
+- `visualizations/footfall_histogram.png` — facility footfall distribution.
+- `visualizations/cleanliness_vs_waste.png` — cleanliness versus waste level, coloured by risk.
+
+## Key findings
+
+The analysis is calculated from the cleaned file every time it runs. In the supplied data, high-risk records have lower average cleanliness and higher odor, waste, complaint, and time-since-cleaning values than low-risk records. The output also identifies the location with the highest average complaints and reports high-footfall outliers using the IQR method.
