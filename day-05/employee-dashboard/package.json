@@ -1,0 +1,12 @@
+{
+  "name": "employee-dashboard",
+  "version": "1.0.0",
+  "description": "Modern Employee Management Dashboard built with Vanilla JavaScript",
+  "type": "module",
+  "scripts": {
+    "start": "open index.html || xdg-open index.html"
+  },
+  "keywords": ["JavaScript", "Employee Management", "Dashboard"],
+  "author": "Intern",
+  "license": "MIT"
+}
