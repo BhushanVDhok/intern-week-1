@@ -1,69 +1,139 @@
-# Day 2: Python Development
+# Day 2 — Python Development
 
-This folder contains a menu-driven Employee Management System, nine standalone Python practice exercises, and a sample employee CSV file.
+## What This Day Covers
 
-## Project structure
+Day 2 focuses on **Python programming** through three deliverables:
+
+1. **Python Exercises** — 9 standalone scripts covering Python fundamentals
+2. **Employee Management System** — a menu-driven CLI application with JSON persistence and OOP design
+3. **CSV Data Analysis** — a script that reads, validates, and summarises employee data from a CSV file
+
+---
+
+## Objectives
+
+- Write Python programs using core language features: conditionals, loops, functions, list comprehensions, lambda expressions
+- Apply object-oriented programming: classes, methods, encapsulation
+- Handle file I/O and data persistence using JSON
+- Parse and analyse structured data from CSV files using the standard library
+- Handle exceptions and edge cases gracefully (invalid input, missing files, division by zero)
+
+---
+
+## Folder Structure
 
 ```text
 day-02/
-├── management-system/
-│   ├── app.py                 # interactive JSON-based employee manager
-│   └── data.json              # employee records used by the app
 ├── python-exercises/
-│   ├── 01-evenOdd.py
-│   ├── 02-largestNum.py
-│   ├── 03-countVowels.py
-│   ├── 04-removeDupli.py
-│   ├── 05-commonEl.py
-│   ├── 06-frequency_string.py
-│   ├── 07-filterEven.py
-│   ├── 08-calculator.py
-│   └── 09-student_class.py
-└── csv-analysis/
-    └── employee_data.csv      # sample CSV; no analysis script is included
+│   ├── 01-evenOdd.py          # Check if a number is even or odd
+│   ├── 02-largestNum.py       # Find the largest number in a list
+│   ├── 03-countVowels.py      # Count vowels in a string
+│   ├── 04-removeDupli.py      # Remove duplicate elements from a list
+│   ├── 05-commonEl.py         # Find common elements between two lists
+│   ├── 06-frequency_string.py # Character frequency map for a string
+│   ├── 07-filterEven.py       # Filter even numbers using a lambda expression
+│   ├── 08-calculator.py       # Basic calculator with divide-by-zero handling
+│   └── 09-student_class.py    # Simple Student class with grade methods
+├── management-system/
+│   ├── app.py                 # Interactive CLI Employee Management System
+│   └── data.json              # JSON data store (modified by the app at runtime)
+├── csv-analysis/
+│   ├── employee_data.csv      # Sample employee CSV dataset
+│   └── analyze_csv.py         # Analysis script (reads CSV, prints summary report)
+└── README.md
 ```
 
-## Employee Management System
+---
 
-`management-system/app.py` uses Python's standard library (`json` and `pathlib`) and stores employee records in `data.json`. Each employee has an ID, name, department, and salary.
+## Python Exercises
 
-Available menu actions:
+Each exercise is a standalone script. Topics covered:
 
-- List, add, update, and delete employees.
-- Search by employee name or ID.
-- Filter by department.
-- Sort by name or salary.
-- Display employee count, salary statistics, highest-paid employee, and department counts.
+| File | Topic |
+|------|-------|
+| `01-evenOdd.py` | Modulo operator, conditionals |
+| `02-largestNum.py` | Built-in `max()`, manual comparison |
+| `03-countVowels.py` | String iteration, counting |
+| `04-removeDupli.py` | Sets, list comprehension |
+| `05-commonEl.py` | Set intersection |
+| `06-frequency_string.py` | Dictionary as a hash map |
+| `07-filterEven.py` | `filter()` with a lambda expression |
+| `08-calculator.py` | Functions, exception handling (`ZeroDivisionError`) |
+| `09-student_class.py` | Class definition, instance methods, `__init__` |
 
-The app handles missing or invalid JSON files, duplicate IDs, unknown IDs, invalid menu selections, invalid numeric input, and negative salaries.
-
-Run it from `day-02`:
-
+### How to Run
 ```powershell
-python .\management-system\app.py
-```
-
-The app changes `management-system/data.json` when an employee is added, updated, or deleted.
-
-## Python exercises
-
-Run any exercise from `day-02` by using its actual filename, for example:
-
-```powershell
+# From the day-02 directory:
 python .\python-exercises\01-evenOdd.py
 python .\python-exercises\08-calculator.py
 ```
 
-The exercises cover even/odd checking, largest-number search, vowel counting, duplicate removal, common list elements, character frequency, lambda filtering, a calculator with divide-by-zero handling, and a simple `Student` class.
+---
 
-## CSV sample
+## Employee Management System
 
-`csv-analysis/employee_data.csv` is a small practice dataset with employee ID, name, department, and salary fields. It contains an empty salary field and a duplicate row, but this repository does not currently include a CSV-analysis program.
+`management-system/app.py` is a fully interactive CLI application that stores employee records in `data.json`.
+
+### Data Model
+Each employee record has: `id`, `name`, `department`, `salary`.
+
+### Supported Operations
+- **List all employees** — prints all records in a readable format
+- **Add employee** — prompts for name, department, salary; auto-assigns an ID; saves to JSON
+- **Update employee** — modify any field of an existing record by ID
+- **Delete employee** — remove a record by ID
+- **Search by name** — case-insensitive partial match
+- **Search by ID** — exact match lookup
+- **Filter by department** — show employees from a specific department
+- **Sort by name or salary** — ascending order
+- **Statistics** — total count, salary min/max/average, highest-paid employee, department breakdown
+
+### Error Handling
+- Missing or corrupted `data.json` initialises an empty store
+- Duplicate IDs are rejected
+- Invalid IDs for update/delete produce a clear error message
+- Non-numeric salary input is caught and re-prompted
+
+### How to Run
+```powershell
+python .\management-system\app.py
+```
+Changes are saved to `management-system/data.json` automatically.
+
+---
+
+## CSV Analysis
+
+`csv-analysis/analyze_csv.py` reads `employee_data.csv` using Python's built-in `csv` module (no Pandas required).
+
+### What the Script Reports
+1. Total number of records in the file
+2. Missing values — which columns have empty cells and how many
+3. Duplicate rows — count and list of exact duplicate records
+4. Salary statistics — minimum, maximum, average
+5. Per-department summary — record count and average salary for each department
+
+### How to Run
+```powershell
+python .\csv-analysis\analyze_csv.py
+```
+
+---
 
 ## Requirements
 
-Python 3 is the only requirement. No third-party packages are needed.
+No third-party packages are required. Only the Python 3 standard library is used (`json`, `pathlib`, `csv`, `os`).
 
 ```powershell
-python --version
+python --version   # Python 3.8 or later recommended
 ```
+
+---
+
+## Challenges Faced & Solutions
+
+| Challenge | Solution |
+|-----------|----------|
+| `data.json` missing or empty on first run | Wrapped file reading in a `try/except` block; initialised to an empty list if the file is missing or invalid |
+| Preventing invalid salary values (negative, non-numeric) | Used a `while` loop with `try/except ValueError` to re-prompt until a valid positive number is entered |
+| Detecting duplicate rows in CSV | Compared each row tuple against a `set` of previously seen rows while parsing |

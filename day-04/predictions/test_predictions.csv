@@ -1,0 +1,4 @@
+facility_id,actual_risk,logistic_regression_prediction,decision_tree_prediction
+F002,High,High,High
+F003,High,High,High
+F009,Low,High,High

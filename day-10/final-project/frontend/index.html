@@ -1,0 +1,289 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Smart Facility Management Dashboard</title>
+  <meta name="description" content="A full-stack facility management web application for tracking hygiene inspections and complaints across multiple zones.">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <!-- Header -->
+  <header class="app-header">
+    <div class="brand">
+      <div class="brand-logo">FM</div>
+      <div class="brand-text">
+        <h1>Facility Manager</h1>
+        <p>Hygiene Inspection &amp; Complaints Tracking System</p>
+      </div>
+    </div>
+    <div class="header-status">
+      <span class="status-indicator"></span>
+      <span id="dbConnectionStatus">Connecting...</span>
+    </div>
+  </header>
+
+  <!-- Navigation Tabs -->
+  <nav class="tab-nav" role="navigation" aria-label="Main navigation">
+    <button class="tab-btn active" data-tab="tabDashboard" id="navDashboard">
+      Dashboard
+    </button>
+    <button class="tab-btn" data-tab="tabFacilities" id="navFacilities">
+      Facilities
+    </button>
+    <button class="tab-btn" data-tab="tabAudit" id="navAudit">
+      Log Inspection
+    </button>
+    <button class="tab-btn" data-tab="tabComplaints" id="navComplaints">
+      Complaints
+    </button>
+  </nav>
+
+  <!-- Main Content -->
+  <main class="main-content">
+    <!-- KPI Metrics Row -->
+    <section class="metrics-row" aria-label="Key metrics">
+      <div class="metric-box">
+        <div class="metric-label">Total Facilities</div>
+        <div class="metric-num" id="metricTotalFacilities">6</div>
+        <div class="metric-sub">Monitored zones</div>
+      </div>
+      <div class="metric-box">
+        <div class="metric-label">Avg. Cleanliness</div>
+        <div class="metric-num" id="metricAvgCleanliness" style="color: #059669;">7.8/10</div>
+        <div class="metric-sub">Target: &ge; 7.0</div>
+      </div>
+      <div class="metric-box">
+        <div class="metric-label">Critical Zones</div>
+        <div class="metric-num" id="metricCritical" style="color: #dc2626;">1</div>
+        <div class="metric-sub">Need immediate attention</div>
+      </div>
+      <div class="metric-box">
+        <div class="metric-label">Open Complaints</div>
+        <div class="metric-num" id="metricActiveComplaints" style="color: #d97706;">2</div>
+        <div class="metric-sub">Unresolved tickets</div>
+      </div>
+    </section>
+
+    <!-- TAB 1: DASHBOARD -->
+    <div id="tabDashboard" class="tab-pane active">
+      <div class="grid-2col">
+        <!-- Quick Overview Table -->
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Zone Hygiene Overview</h2>
+            <span class="card-meta" id="dbConnectionStatus2">Live Data</span>
+          </div>
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Facility</th>
+                  <th>Cleanliness</th>
+                  <th>Odor</th>
+                  <th>Status</th>
+                </tr>
+              </thead>
+              <tbody id="dashboardQuickSummary">
+                <tr>
+                  <td><strong>Terminal 1 Main</strong></td>
+                  <td>8.8/10</td>
+                  <td>1.8/10</td>
+                  <td><span class="badge badge-good">Good</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Food Court Plaza</strong></td>
+                  <td>4.5/10</td>
+                  <td>7.2/10</td>
+                  <td><span class="badge badge-warning">Needs Cleaning</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Transit Lounge</strong></td>
+                  <td>9.2/10</td>
+                  <td>1.2/10</td>
+                  <td><span class="badge badge-good">Good</span></td>
+                </tr>
+                <tr>
+                  <td><strong>Cargo Bay Restrooms</strong></td>
+                  <td>3.2/10</td>
+                  <td>8.9/10</td>
+                  <td><span class="badge badge-danger">Critical</span></td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
+
+        <!-- System Info -->
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">System Information</h2>
+          </div>
+          <div class="info-block">
+            <p class="info-text">
+              <strong>Architecture:</strong> Frontend (HTML/CSS/JS) &rarr; Node.js/Express REST API (Port 5000) &rarr; PostgreSQL Database (Port 5432).
+            </p>
+            <div class="info-list-box">
+              <div class="info-list-title">Features:</div>
+              <ul class="info-list">
+                <li>Facility hygiene scoring and status tracking</li>
+                <li>Physical inspection audit logging with atomic DB updates</li>
+                <li>Complaint ticket registration and resolution</li>
+                <li>Real-time KPI metrics from PostgreSQL views</li>
+                <li>Fallback in-memory data when DB is unavailable</li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 2: FACILITIES -->
+    <div id="tabFacilities" class="tab-pane">
+      <div class="card">
+        <div class="card-header">
+          <h2 class="card-title">All Monitored Facilities</h2>
+        </div>
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Facility Name &amp; Location</th>
+                <th>Cleanliness</th>
+                <th>Odor</th>
+                <th>Waste Level</th>
+                <th>Daily Footfall</th>
+                <th>Status</th>
+                <th>Action</th>
+              </tr>
+            </thead>
+            <tbody id="facilitiesTableBody">
+              <!-- Populated dynamically by app.js -->
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </div>
+
+    <!-- TAB 3: LOG INSPECTION -->
+    <div id="tabAudit" class="tab-pane">
+      <div class="card" style="max-width: 650px; margin: 0 auto;">
+        <div class="card-header">
+          <h2 class="card-title">Record Physical Hygiene Inspection</h2>
+        </div>
+        <form id="auditForm" novalidate>
+          <div class="form-group">
+            <label class="form-label" for="auditFacilitySelect">Target Facility Zone</label>
+            <select id="auditFacilitySelect" class="form-select" required></select>
+          </div>
+
+          <div class="form-grid">
+            <div class="form-group">
+              <label class="form-label" for="auditCleanliness">Cleanliness Score (1–10)</label>
+              <input type="number" id="auditCleanliness" class="form-input" min="1" max="10" step="0.5" value="8" required>
+            </div>
+            <div class="form-group">
+              <label class="form-label" for="auditOdor">Odor Intensity Score (1–10)</label>
+              <input type="number" id="auditOdor" class="form-input" min="1" max="10" step="0.5" value="2" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="auditWaste">Waste Receptacle Level</label>
+            <select id="auditWaste" class="form-select">
+              <option value="Low">Low (&lt; 30% full)</option>
+              <option value="Medium">Medium (30%–70% full)</option>
+              <option value="High">High (&gt; 70% / Overflow)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="auditWater">Water Availability</label>
+            <select id="auditWater" class="form-select">
+              <option value="true">Available</option>
+              <option value="false">Unavailable</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label class="form-label" for="auditNotes">Inspector Notes</label>
+            <textarea id="auditNotes" class="form-textarea" rows="3" placeholder="Observations, consumables replaced, or leaks noted..."></textarea>
+          </div>
+
+          <button type="submit" id="auditSubmitBtn" class="btn btn-primary" style="width: 100%;">
+            Submit Inspection &amp; Update Scores
+          </button>
+        </form>
+      </div>
+    </div>
+
+    <!-- TAB 4: COMPLAINTS -->
+    <div id="tabComplaints" class="tab-pane">
+      <div class="grid-2col">
+        <!-- New Complaint Form -->
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Register Complaint Ticket</h2>
+          </div>
+          <form id="complaintForm" novalidate>
+            <div class="form-group">
+              <label class="form-label" for="complaintFacilitySelect">Affected Facility</label>
+              <select id="complaintFacilitySelect" class="form-select" required></select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="complaintTitle">Incident Summary</label>
+              <input type="text" id="complaintTitle" class="form-input" placeholder="e.g. Broken lock on stall 3" required>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="complaintPriority">Priority</label>
+              <select id="complaintPriority" class="form-select">
+                <option value="Low">Low</option>
+                <option value="Medium" selected>Medium</option>
+                <option value="High">High</option>
+                <option value="Urgent">Urgent</option>
+              </select>
+            </div>
+
+            <div class="form-group">
+              <label class="form-label" for="complaintDesc">Details</label>
+              <textarea id="complaintDesc" class="form-textarea" rows="3" placeholder="Describe the condition in detail..." required></textarea>
+            </div>
+
+            <button type="submit" id="complaintSubmitBtn" class="btn btn-primary" style="width: 100%;">
+              Submit Complaint Ticket
+            </button>
+          </form>
+        </div>
+
+        <!-- Complaints Table -->
+        <div class="card">
+          <div class="card-header">
+            <h2 class="card-title">Active Complaint Queue</h2>
+          </div>
+          <div class="table-wrapper">
+            <table>
+              <thead>
+                <tr>
+                  <th>Facility</th>
+                  <th>Summary</th>
+                  <th>Priority</th>
+                  <th>Status</th>
+                  <th>Action</th>
+                </tr>
+              </thead>
+              <tbody id="complaintsTableBody">
+                <!-- Populated dynamically by app.js -->
+              </tbody>
+            </table>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>

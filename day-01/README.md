@@ -1,94 +1,136 @@
-# Day 1: Programming Fundamentals & Problem Solving
+# Day 1 — Programming Fundamentals & Problem Solving
 
-This directory contains the Day 1 deliverables for the 10-Day Intern Technical Training & Domain Assessment Program: 15 JavaScript programming exercises and a Node.js Employee Management CLI application.
+## What This Day Covers
+
+Day 1 introduces the core building blocks of programming: control flow, data structures, algorithms, and time-complexity analysis. All work is in **JavaScript running on Node.js**.
+
+The day has two deliverables:
+1. **15 Programming Exercises** — each solving a well-defined algorithmic or data-structure problem
+2. **Employee Management CLI** — an interactive command-line application demonstrating CRUD operations and data aggregation
+
+---
 
 ## Objectives
 
-- Practise programming fundamentals and problem solving.
-- Apply core data structures and algorithms.
-- Consider time complexity while writing solutions.
-- Use Git and document the implementation.
+- Practise fundamental programming constructs (loops, conditionals, functions, recursion)
+- Apply common data structures: arrays, linked lists
+- Implement and compare search and sort algorithms
+- Analyse and document time complexity (Big-O notation) for every solution
+- Build an interactive CLI application using Node.js standard library
+- Use Git for version control and document the implementation
 
-## Contents
+---
+
+## Folder Structure
 
 ```text
 day-01/
-|-- exercises/                    # 15 solved programming  exercises
-|-- employee-management/          # Node.js command-line application
-|   |-- index.js
-|   `-- package.json
-|-- README.md
+├── exercises/                 # 15 solved programming exercises (one file each)
+│   ├── 01-print-numbers.js
+│   ├── 02-sum-numbers.js
+│   ├── 03-square-pattern.js
+│   ├── 04-number-palindrome.js
+│   ├── 05-reverse-number.js
+│   ├── 06-reverse-array.js
+│   ├── 07-find-largest.js
+│   ├── 08-count-even-odd.js
+│   ├── 09-linear-search.js
+│   ├── 10-binary-search.js
+│   ├── 11-bubble-sort.js
+│   ├── 12-reverse-string.js
+│   ├── 13-string-palindrome.js
+│   ├── 14-char-frequency.js
+│   └── 15-LL-implementation.js
+├── employee-management/
+│   ├── index.js               # Main CLI application (all logic in one file)
+│   └── package.json
+├── screenshots/
+│   ├── employee-management-cli-add.png
+│   └── employee-management-cli-list.png
+└── README.md
 ```
 
-## Exercises
+---
 
-| # | Exercise | Time complexity |
-| --- | --- | --- |
-| 1 | Print numbers | O(n) |
-| 2 | Sum numbers | O(n) |
-| 3 | Square pattern | O(n^2) |
-| 4 | Number palindrome | O(log n) |
-| 5 | Reverse a number | O(log n) |
-| 6 | Reverse an array | O(n) |
-| 7 | Find the largest array element | O(n) |
-| 8 | Count even and odd elements | O(n) |
-| 9 | Linear search | O(n) |
-| 10 | Binary search (sorted array) | O(log n) |
-| 11 | Bubble sort | O(n^2) |
-| 12 | Reverse a string | O(n) |
-| 13 | String palindrome | O(n) |
-| 14 | Character frequency | O(n) |
-| 15 | Linked-list implementation and traversal | O(n) |
+## Exercise List with Time Complexity
 
-Each exercise source file includes a single-line comment stating its time complexity.
+| # | Exercise | Algorithm / Concept | Time Complexity |
+|---|----------|---------------------|-----------------|
+| 1 | Print numbers 1 to N | Loop | O(n) |
+| 2 | Sum of N numbers | Loop / reduce | O(n) |
+| 3 | Square star pattern | Nested loops | O(n²) |
+| 4 | Number palindrome | Digit extraction | O(log n) |
+| 5 | Reverse a number | Digit extraction | O(log n) |
+| 6 | Reverse an array | Two-pointer / slice | O(n) |
+| 7 | Find largest element | Linear scan | O(n) |
+| 8 | Count even and odd elements | Linear scan | O(n) |
+| 9 | Linear search | Sequential search | O(n) |
+| 10 | Binary search (sorted array) | Divide and conquer | O(log n) |
+| 11 | Bubble sort | Comparison sort | O(n²) |
+| 12 | Reverse a string | Array reversal | O(n) |
+| 13 | String palindrome check | Two-pointer | O(n) |
+| 14 | Character frequency map | Hash map | O(n) |
+| 15 | Linked list — implementation & traversal | Pointer traversal | O(n) |
+
+Each source file includes a comment at the top stating its time complexity.
+
+---
 
 ## Employee Management CLI
 
-The application runs in the terminal and stores employee data in memory for the current session. It supports:
+The CLI runs interactively in the terminal. Employee data is stored in memory for the duration of the session (not persisted to disk).
 
-- Add, update, and delete employees
-- Search employees by ID or name
-- List all employees
-- Find the employee with the highest salary
-- Calculate the average salary
-- Filter employees by department
-- Basic input validation for employee name and salary
+### Supported Operations
 
-## Technology
+- **Add employee** — enter name, department, position, and salary; ID is auto-assigned
+- **Update employee** — change any field of an existing record by ID
+- **Delete employee** — remove a record by ID
+- **Search by ID** — retrieve a specific employee record
+- **Search by name** — case-insensitive partial match
+- **List all employees** — display all records in a formatted table
+- **Filter by department** — show only employees in a chosen department
+- **Highest salary** — find and display the top-paid employee
+- **Average salary** — compute the mean salary across all employees
 
-- JavaScript (Node.js)
-- Node.js built-in `readline/promises` module
-- Git and GitHub
+### Input Validation
 
-## Run the application
+- Name must be a non-empty string
+- Salary must be a positive number (non-negative float)
+- ID must correspond to an existing record for update/delete/search
 
-1. Install [Node.js](https://nodejs.org/) (version 18 or later).
-2. From the repository root, run:
+### Technology
 
-   ```bash
-   cd day-01/employee-management
-   node index.js
-   ```
+- JavaScript (ES6+) — no third-party packages
+- Node.js built-in `readline/promises` module for interactive prompts
+- `console.table()` for formatted tabular output
 
-3. Choose an option from the menu and follow the prompts.
+---
 
-## Screenshots
+## How to Run
 
-![Employee Management CLI screenshot](./screenshots/employee-management-cli-add.png)
-![Employee Management CLI screenshot](./screenshots/employee-management-cli-list.png)
+### Prerequisites
+- Node.js v18 or later
 
-## Challenges Faced
+### Running the exercises
+```powershell
+# Run any single exercise file, e.g.:
+node day-01/exercises/01-print-numbers.js
+node day-01/exercises/15-LL-implementation.js
+```
 
-- Formatting Output: Standard console logs became unreadable for array lists.
+### Running the Employee Management CLI
+```powershell
+cd day-01/employee-management
+node index.js
+```
+Follow the numbered menu printed to the terminal.
 
-- Data Aggregation: Computing average salary and finding peak values accurately when lists contain variable values.
+---
 
-## Solutions
+## Challenges Faced & Solutions
 
-- Utilized Node's built-in console.table() method to format complex objects cleanly into visual tables.
-
-- Implemented JavaScript functional helpers like .reduce() and .filter() to handle aggregate stats
-
-## Future Improvements
-
-- Save employee records in a JSON file so the data is still available after the program closes.
+| Challenge | Solution |
+|-----------|----------|
+| Console output becoming hard to read for employee lists | Used Node's built-in `console.table()` to render objects as a visual table |
+| Computing salary aggregates correctly with variable-length lists | Used `Array.prototype.reduce()` for sum and `Array.prototype.filter()` for department grouping |
+| Avoiding duplicate IDs when adding employees | Initialised `nextId` to one more than the highest existing ID in the seed data |

@@ -1,0 +1,11 @@
+{
+  "name": "smart-facility-frontend",
+  "version": "1.0.0",
+  "description": "Day 10 Final Project: Frontend Web Application",
+  "scripts": {
+    "start": "npx serve -l 3000 ."
+  },
+  "dependencies": {
+    "serve": "^14.2.1"
+  }
+}

@@ -8,7 +8,7 @@ let employees = [
   { id: 3, name: "Gwen Stacy", department: "Engineering", salary: 84000 },
   { id: 4, name: "Peter Parker", department: "Finance", salary: 92000 }
 ];
-let nextId = 4;
+let nextId = 5;
 
 const rl = readline.createInterface({ input, output });
 
